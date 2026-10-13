@@ -45,7 +45,7 @@ I bridge the gap between enterprise clients, scalable SaaS architecture, and app
 
 <div align="center">
 
-## Numbers matter? ohhh yes. 
+## My Github Stats
 
 <!-- Rendered directly by scripts/cards.py into this repo: stable, fast, immune to third-party downtime -->
 <picture>
