@@ -22,10 +22,6 @@
   <img src="assets/banner-dark.svg" width="100%" alt="rupal.sh --live">
 </picture>
 
-<br>
-
-<img src="https://komarev.com/ghpvc/?username=rupal2k&style=flat&color=f15162&label=profile+views" alt="profile views">
-
 </div>
 
 ---
