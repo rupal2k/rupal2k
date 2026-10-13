@@ -85,7 +85,11 @@ I bridge the gap between enterprise clients, scalable SaaS architecture, and app
 </a>
 
 <p align="center">
-  <img src="assets/stack-aegis-ai.svg" alt="Aegis AI Tech Stack">
+  <a href="https://www.python.org" target="_blank" rel="noreferrer"><img src="assets/icons/python.svg" width="34" height="34" alt="Python"></a>&nbsp;
+  <a href="https://fastapi.tiangolo.com" target="_blank" rel="noreferrer"><img src="assets/icons/fastapi.svg" width="34" height="34" alt="FastAPI"></a>&nbsp;
+  <a href="https://scikit-learn.org" target="_blank" rel="noreferrer"><img src="assets/icons/sklearn.svg" width="34" height="34" alt="Scikit-Learn"></a>&nbsp;
+  <a href="https://www.postgresql.org" target="_blank" rel="noreferrer"><img src="assets/icons/postgres.svg" width="34" height="34" alt="PostgreSQL"></a>&nbsp;
+  <a href="https://www.docker.com" target="_blank" rel="noreferrer"><img src="assets/icons/docker.svg" width="34" height="34" alt="Docker"></a>
 </p>
 
 <a href="https://github.com/rupal2k/aegis-ai">
@@ -106,7 +110,11 @@ I bridge the gap between enterprise clients, scalable SaaS architecture, and app
 </a>
 
 <p align="center">
-  <img src="assets/stack-pinet.svg" alt="PINET Tech Stack">
+  <a href="https://www.python.org" target="_blank" rel="noreferrer"><img src="assets/icons/python.svg" width="34" height="34" alt="Python"></a>&nbsp;
+  <a href="https://flask.palletsprojects.com" target="_blank" rel="noreferrer"><img src="assets/icons/flask.svg" width="34" height="34" alt="Flask"></a>&nbsp;
+  <a href="https://www.linux.org" target="_blank" rel="noreferrer"><img src="assets/icons/linux.svg" width="34" height="34" alt="Linux"></a>&nbsp;
+  <a href="https://www.gnu.org/software/bash" target="_blank" rel="noreferrer"><img src="assets/icons/bash.svg" width="34" height="34" alt="Bash"></a>&nbsp;
+  <a href="https://www.raspberrypi.com" target="_blank" rel="noreferrer"><img src="assets/icons/raspberrypi.svg" width="34" height="34" alt="Raspberry Pi"></a>
 </p>
 
 <a href="https://github.com/rupal2k/pinet">
@@ -127,7 +135,20 @@ I bridge the gap between enterprise clients, scalable SaaS architecture, and app
 
 ## my perfect stack
 
-<img src="assets/stack-perfect.svg" alt="tech stack">
+<p align="center">
+  <a href="https://www.python.org" target="_blank" rel="noreferrer"><img src="assets/icons/python.svg" width="42" height="42" alt="Python"></a>&nbsp;
+  <a href="https://fastapi.tiangolo.com" target="_blank" rel="noreferrer"><img src="assets/icons/fastapi.svg" width="42" height="42" alt="FastAPI"></a>&nbsp;
+  <a href="https://flask.palletsprojects.com" target="_blank" rel="noreferrer"><img src="assets/icons/flask.svg" width="42" height="42" alt="Flask"></a>&nbsp;
+  <a href="https://scikit-learn.org" target="_blank" rel="noreferrer"><img src="assets/icons/sklearn.svg" width="42" height="42" alt="Scikit-Learn"></a>&nbsp;
+  <a href="https://www.postgresql.org" target="_blank" rel="noreferrer"><img src="assets/icons/postgres.svg" width="42" height="42" alt="PostgreSQL"></a>&nbsp;
+  <a href="https://www.docker.com" target="_blank" rel="noreferrer"><img src="assets/icons/docker.svg" width="42" height="42" alt="Docker"></a><br><br>
+  <a href="https://www.linux.org" target="_blank" rel="noreferrer"><img src="assets/icons/linux.svg" width="42" height="42" alt="Linux"></a>&nbsp;
+  <a href="https://www.gnu.org/software/bash" target="_blank" rel="noreferrer"><img src="assets/icons/bash.svg" width="42" height="42" alt="Bash"></a>&nbsp;
+  <a href="https://www.raspberrypi.com" target="_blank" rel="noreferrer"><img src="assets/icons/raspberrypi.svg" width="42" height="42" alt="Raspberry Pi"></a>&nbsp;
+  <a href="https://www.postman.com" target="_blank" rel="noreferrer"><img src="assets/icons/postman.svg" width="42" height="42" alt="Postman"></a>&nbsp;
+  <a href="https://www.jenkins.io" target="_blank" rel="noreferrer"><img src="assets/icons/jenkins.svg" width="42" height="42" alt="Jenkins"></a>&nbsp;
+  <a href="https://github.com/features/actions" target="_blank" rel="noreferrer"><img src="assets/icons/githubactions.svg" width="42" height="42" alt="GitHub Actions"></a>
+</p>
 
 </div>
 
