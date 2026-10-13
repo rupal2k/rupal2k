@@ -19,14 +19,14 @@ UA = {"User-Agent": "cards.py"}
 
 THEMES = {
     "dark": {
-        "bg": "#0d1117", "border": "#30363d", "title": "#f15162",
+        "bg": "#0d1117", "border": "#30363d", "title": "#A3E635",
         "text": "#c9d1d9", "muted": "#8b949e", "value": "#e6edf3",
-        "accent": "#f15162",
+        "accent": "#A3E635",
     },
     "light": {
-        "bg": "#ffffff", "border": "#d0d7de", "title": "#d83a52",
+        "bg": "#ffffff", "border": "#d0d7de", "title": "#4D7C0F",
         "text": "#1f2328", "muted": "#57606a", "value": "#1f2328",
-        "accent": "#d83a52",
+        "accent": "#4D7C0F",
     },
 }
 

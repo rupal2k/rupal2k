@@ -2,16 +2,16 @@
 
 <!-- NAME / TAGLINE - animated typing -->
 <a href="https://github.com/rupal2k">
-  <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=26&duration=2600&pause=900&color=F15162&center=true&vCenter=true&width=880&lines=Rupal+Das+-+Technical+Operations+%26+Client+Success;Enterprise+SaaS+%7C+Americas+%26+EU+Implementations;Applied+AI+%26+Automation+%40+IIM+Lucknow;Certified+Scrum+Master+(CSM%C2%AE)" alt="typing banner">
+  <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=26&duration=2600&pause=900&color=A3E635&center=true&vCenter=true&width=880&lines=Rupal+Das+-+Technical+Operations+%26+Client+Success;Enterprise+SaaS+%7C+Americas+%26+EU+Implementations;Applied+AI+%26+Automation+%40+IIM+Lucknow;Certified+Scrum+Master+(CSM%C2%AE)" alt="typing banner">
 </a>
 
 <br><br>
 
-<!-- SOCIALS — LinkedIn brand blue, others themed with Vantage Fit coral accent -->
+<!-- SOCIALS — LinkedIn brand blue, others themed with lime green accent -->
 <a href="https://www.linkedin.com/in/rupal-das-03ba082a/"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"></a>&nbsp;&nbsp;
-<a href="https://rupalportfolio.vercel.app/"><img src="https://img.shields.io/badge/Portfolio-0d1117?style=for-the-badge&logo=vercel&logoColor=f15162" alt="Portfolio"></a>&nbsp;&nbsp;
-<a href="mailto:rupal2k@gmail.com"><img src="https://img.shields.io/badge/Email-0d1117?style=for-the-badge&logo=gmail&logoColor=f15162" alt="Email"></a>&nbsp;&nbsp;
-<a href="https://www.linkedin.com/in/rupal-das-03ba082a/"><img src="https://img.shields.io/badge/ScrumMaster-0d1117?style=for-the-badge&logo=scrumalliance&logoColor=f15162" alt="CSM"></a>
+<a href="https://rupalportfolio.vercel.app/"><img src="https://img.shields.io/badge/Portfolio-0d1117?style=for-the-badge&logo=vercel&logoColor=a3e635" alt="Portfolio"></a>&nbsp;&nbsp;
+<a href="mailto:rupal2k@gmail.com"><img src="https://img.shields.io/badge/Email-0d1117?style=for-the-badge&logo=gmail&logoColor=a3e635" alt="Email"></a>&nbsp;&nbsp;
+<a href="https://www.linkedin.com/in/rupal-das-03ba082a/"><img src="https://img.shields.io/badge/ScrumMaster-0d1117?style=for-the-badge&logo=scrumalliance&logoColor=a3e635" alt="CSM"></a>
 
 <br><br>
 
