@@ -1,23 +1,25 @@
 #!/usr/bin/env python3
 """
 banner.py - generate animated terminal profile banner SVG for dark and light modes.
-Stdlib only. Inspired by emmi-lili/emmi-lili.
+Stdlib only.
+Features a live terminal computer boot sequence animation on the left panel
+and a system info spec sheet on the right panel.
 """
 
 from __future__ import annotations
 
 import html
-import math
 from pathlib import Path
 
 W, H = 1180, 610
+BOOT_DUR = 12.0  # seconds per loop
 
 ROWS = [
     ("Subject", "Rupal Das"),
     ("Role", "Client Success & Technical Operations Lead"),
     ("Company", "Vantage Circle"),
     ("Origin", "Kolkata, India"),
-    ("Education", "IIM Lucknow (Executive AI) · WBUT"),
+    ("Education", "IIM Lucknow (Executive) · WBUT"),
     ("Status", "Building + Scaling + Deploying"),
     ("ToolChain", "Docker · Jenkins · Postman · Linux"),
     ("Core.AI", "Agentic AI · XGBoost · Optuna · MLflow"),
@@ -28,6 +30,25 @@ ROWS = [
     ("Grid.Portfolio", "rupalportfolio.vercel.app"),
     ("Grid.GitHub", "rupal2k"),
     ("Grid.Mail", "rupal2k@gmail.com"),
+]
+
+BOOT_LOGS = [
+    (0.2, "dim", "> BOOT ROM v4.12 (x86_64 UEFI) ... OK"),
+    (0.6, "dim", "> MEMORY CHECK: 64 GB ECC OK"),
+    (1.0, "text", "> KERNEL: Linux 6.8.0-telemetry-x86_64"),
+    (1.4, "dim", "> MOUNTING ROOT FS [/dev/nvme0n1] ... OK"),
+    (1.9, "cyan", "> INITIALIZING SYSTEM DAEMONS:"),
+    (2.4, "ok", "systemd-networkd.service"),
+    (2.9, "ok", "pinet-edge-telemetry.service"),
+    (3.4, "ok", "aegis-ml-pipeline.service"),
+    (3.9, "ok", "rest-api-gateway (port 443)"),
+    (4.4, "ok", "jenkins-webhook-agent.service"),
+    (4.9, "ok", "postgresql-cluster.service"),
+    (5.5, "dim", "> NODE: IND-CCU [22.57°N, 88.36°E]"),
+    (6.1, "accent", "> SLA GOVERNANCE: 99.8% [ENFORCED]"),
+    (6.7, "cyan", "> RUNLEVEL: 5 · MULTI-USER TARGET"),
+    (7.3, "prompt", "rupal2k@enterprise:~$ ./init_ops.sh"),
+    (8.0, "online", "● ALL SYSTEMS NOMINAL · RUNNING"),
 ]
 
 THEMES = {
@@ -41,8 +62,8 @@ THEMES = {
         "accent": "#F15162",
         "chrome": "#F15162",
         "status": "#10B981",
+        "cyan": "#38BDF8",
         "shadow": "#000000",
-        "radar_fill": "rgba(241, 81, 98, 0.12)",
     },
     "light": {
         "bg": "#F6F8FA",
@@ -54,8 +75,8 @@ THEMES = {
         "accent": "#D83A52",
         "chrome": "#D83A52",
         "status": "#1A7F37",
+        "cyan": "#0969DA",
         "shadow": "#D0D7DE",
-        "radar_fill": "rgba(216, 58, 82, 0.08)",
     },
 }
 
@@ -72,7 +93,6 @@ def dotted_leader(x0: float, x1: float, y: float, step: float = 5.0) -> str:
 
 
 def text_width(s: str, font_size: float = 14) -> float:
-    # Monospace advance is ~0.60 * font_size
     return len(s) * font_size * 0.60
 
 
@@ -81,7 +101,7 @@ def render_banner(theme_name: str) -> str:
     parts: list[str] = [
         f'<svg xmlns="http://www.w3.org/2000/svg" width="{W}" height="{H}" viewBox="0 0 {W} {H}" role="img" aria-labelledby="title desc">',
         f'<title id="title">Rupal Das - Live System Profile</title>',
-        f'<desc id="desc">Terminal telemetry profile dashboard for Rupal Das.</desc>',
+        f'<desc id="desc">Terminal boot and telemetry profile dashboard for Rupal Das.</desc>',
         '<defs>',
         f'<filter id="shadow" x="-20%" y="-20%" width="140%" height="150%">',
         f'<feDropShadow dx="0" dy="12" stdDeviation="16" flood-color="{t["shadow"]}" flood-opacity=".28"/>',
@@ -90,7 +110,7 @@ def render_banner(theme_name: str) -> str:
         f'<feGaussianBlur stdDeviation="3" result="b"/><feFlood flood-color="{t["chrome"]}" flood-opacity=".45"/><feComposite in2="b" operator="in"/>',
         '<feMerge><feMergeNode/><feMergeNode in="SourceGraphic"/></feMerge>',
         '</filter>',
-        '<clipPath id="radarClip"><rect x="49" y="124" width="390" height="414" rx="4"/></clipPath>',
+        '<clipPath id="bootClip"><rect x="49" y="124" width="390" height="426" rx="4"/></clipPath>',
         '</defs>',
         # Main background & Window Frame
         f'<rect width="{W}" height="{H}" rx="18" fill="{t["bg"]}"/>',
@@ -102,46 +122,100 @@ def render_banner(theme_name: str) -> str:
         '<circle cx="80" cy="38" r="6" fill="#28C840"/>',
         # Terminal Title
         f'<text x="590" y="43" text-anchor="middle" fill="{t["muted"]}" font-family="ui-monospace,SFMono-Regular,Consolas,monospace" font-size="13" letter-spacing=".4">rupal.sh --live</text>',
-        
-        # LEFT PANEL: TELEMETRY / RADAR
+
+        # LEFT PANEL: TERMINAL BOOT SEQUENCE
         f'<rect x="35" y="88" width="418" height="472" rx="6" fill="{t["panel2"]}" stroke="{t["line"]}"/>',
         f'<path d="M35 124H453" stroke="{t["line"]}"/>',
-        f'<text x="49" y="111" fill="{t["chrome"]}" font-family="ui-monospace,SFMono-Regular,Consolas,monospace" font-size="13" font-weight="700" letter-spacing="1.2">SYS.TELEMETRY</text>',
-        f'<text x="438" y="111" text-anchor="end" fill="{t["muted"]}" font-family="ui-monospace,SFMono-Regular,Consolas,monospace" font-size="11">NODE: IND-CCU</text>',
-        # Radar Crosshairs Corners
-        f'<path d="M49 141h12M49 141v12M439 141h-12M439 141v12M49 539h12M49 539v-12M439 539h-12M439 539v-12" fill="none" stroke="{t["chrome"]}" opacity=".55"/>',
+        f'<text x="49" y="111" fill="{t["chrome"]}" font-family="ui-monospace,SFMono-Regular,Consolas,monospace" font-size="13" font-weight="700" letter-spacing="1.2">SYS.BOOT_LOG</text>',
+        f'<text x="438" y="111" text-anchor="end" fill="{t["muted"]}" font-family="ui-monospace,SFMono-Regular,Consolas,monospace" font-size="11">TTY: /dev/tty0</text>',
         
-        # Inside Left Visual
-        '<g clip-path="url(#radarClip)">',
-        # Radar circles
-        f'<circle cx="244" cy="270" r="110" fill="none" stroke="{t["line"]}" stroke-dasharray="4,4"/>',
-        f'<circle cx="244" cy="270" r="80" fill="none" stroke="{t["line"]}"/>',
-        f'<circle cx="244" cy="270" r="50" fill="none" stroke="{t["line"]}" stroke-dasharray="3,3"/>',
-        f'<circle cx="244" cy="270" r="20" fill="none" stroke="{t["line"]}"/>',
-        f'<line x1="120" y1="270" x2="368" y2="270" stroke="{t["line"]}" stroke-width="1"/>',
-        f'<line x1="244" y1="146" x2="244" y2="394" stroke="{t["line"]}" stroke-width="1"/>',
-        # Radar Sweep Animation
-        '<g>',
-        f'<path d="M244 270 L344 200 A110 110 0 0 0 244 160 Z" fill="{t["radar_fill"]}"/>',
-        f'<line x1="244" y1="270" x2="344" y2="200" stroke="{t["chrome"]}" stroke-width="1.8"/>',
-        '<animateTransform attributeName="transform" type="rotate" from="0 244 270" to="360 244 270" dur="4s" repeatCount="indefinite"/>',
-        '</g>',
-        # Targets on radar
-        f'<circle cx="290" cy="220" r="3.5" fill="{t["accent"]}"><animate attributeName="opacity" values="1;0.2;1" dur="2s" repeatCount="indefinite"/></circle>',
-        f'<circle cx="190" cy="310" r="3" fill="{t["chrome"]}"><animate attributeName="opacity" values="0.3;1;0.3" dur="2.5s" repeatCount="indefinite"/></circle>',
-        f'<circle cx="270" cy="330" r="3" fill="{t["status"]}"><animate attributeName="opacity" values="0.8;0.2;0.8" dur="1.8s" repeatCount="indefinite"/></circle>',
-        '</g>',
-        
-        # Telemetry metrics under radar
-        f'<text x="58" y="420" fill="{t["muted"]}" font-family="ui-monospace,SFMono-Regular,Consolas,monospace" font-size="11">STREAM: /telemetry/enterprise</text>',
-        f'<text x="58" y="440" fill="{t["muted"]}" font-family="ui-monospace,SFMono-Regular,Consolas,monospace" font-size="11">SLA COMPLIANCE: 99.8%  [+20% UPLIFT]</text>',
-        f'<text x="58" y="460" fill="{t["muted"]}" font-family="ui-monospace,SFMono-Regular,Consolas,monospace" font-size="11">GO-LIVE DELIVERIES: 15+ [0 MISSED]</text>',
-        f'<text x="58" y="480" fill="{t["muted"]}" font-family="ui-monospace,SFMono-Regular,Consolas,monospace" font-size="11">AI L&amp;D REDUCTION: ~40% CYCLE TIME</text>',
-        f'<text x="58" y="500" fill="{t["muted"]}" font-family="ui-monospace,SFMono-Regular,Consolas,monospace" font-size="11">AGENT STATUS: DISPATCHED &amp; ACTIVE</text>',
-        f'<text x="58" y="520" fill="{t["chrome"]}" font-family="ui-monospace,SFMono-Regular,Consolas,monospace" font-size="11">COORDINATES: 22.5726° N, 88.3639° E</text>',
-        f'<text x="58" y="551" fill="{t["muted"]}" font-family="ui-monospace,SFMono-Regular,Consolas,monospace" font-size="10">SYS-VER 2.4.0 · ENTERPRISE KERNEL</text>',
+        # Terminal Corner Accents
+        f'<path d="M49 135h10M49 135v10M439 135h-10M439 135v10M49 548h10M49 548v-10M439 548h-10M439 548v-10" fill="none" stroke="{t["chrome"]}" opacity=".55"/>',
 
-        # RIGHT PANEL: SYSTEM.INFO
+        # Animated Boot Progress Bar (top of left terminal screen)
+        f'<rect x="52" y="133" width="384" height="3" rx="1.5" fill="{t["line"]}"/>',
+        f'<rect x="52" y="133" height="3" rx="1.5" fill="{t["chrome"]}">'
+        f'<animate attributeName="width" values="0;120;250;384;384;0" keyTimes="0;0.25;0.52;0.75;0.93;1" dur="{BOOT_DUR}s" repeatCount="indefinite"/>'
+        '</rect>',
+
+        # Terminal lines clipped inside screen
+        '<g clip-path="url(#bootClip)">',
+    ]
+
+    # Render each boot line with timed appearance
+    y_pos = 156.0
+    line_h = 23.5
+    for start_t, style, text in BOOT_LOGS:
+        t0 = round(start_t / BOOT_DUR, 3)
+        t1 = round(min(0.93, (start_t + 0.08) / BOOT_DUR), 3)
+        key_times = f"0;{t0};{t1};0.93;1"
+
+        if style == "ok":
+            line_markup = (
+                f'<text x="56" y="{y_pos:.1f}" font-family="ui-monospace,SFMono-Regular,Consolas,monospace" font-size="11.5" opacity="0">'
+                f'<animate attributeName="opacity" values="0;0;1;1;0" keyTimes="{key_times}" dur="{BOOT_DUR}s" repeatCount="indefinite"/>'
+                f'<tspan fill="{t["status"]}" font-weight="700">[  OK  ]</tspan>'
+                f'<tspan fill="{t["text"]}"> {html.escape(text)}</tspan>'
+                f'</text>'
+            )
+        elif style == "dim":
+            line_markup = (
+                f'<text x="56" y="{y_pos:.1f}" fill="{t["muted"]}" font-family="ui-monospace,SFMono-Regular,Consolas,monospace" font-size="11" opacity="0">'
+                f'<animate attributeName="opacity" values="0;0;1;1;0" keyTimes="{key_times}" dur="{BOOT_DUR}s" repeatCount="indefinite"/>'
+                f'{html.escape(text)}'
+                f'</text>'
+            )
+        elif style == "cyan":
+            line_markup = (
+                f'<text x="56" y="{y_pos:.1f}" fill="{t["cyan"]}" font-family="ui-monospace,SFMono-Regular,Consolas,monospace" font-size="11.5" font-weight="600" opacity="0">'
+                f'<animate attributeName="opacity" values="0;0;1;1;0" keyTimes="{key_times}" dur="{BOOT_DUR}s" repeatCount="indefinite"/>'
+                f'{html.escape(text)}'
+                f'</text>'
+            )
+        elif style == "accent":
+            line_markup = (
+                f'<text x="56" y="{y_pos:.1f}" fill="{t["accent"]}" font-family="ui-monospace,SFMono-Regular,Consolas,monospace" font-size="11.5" font-weight="600" opacity="0">'
+                f'<animate attributeName="opacity" values="0;0;1;1;0" keyTimes="{key_times}" dur="{BOOT_DUR}s" repeatCount="indefinite"/>'
+                f'{html.escape(text)}'
+                f'</text>'
+            )
+        elif style == "prompt":
+            line_markup = (
+                f'<text x="56" y="{y_pos:.1f}" font-family="ui-monospace,SFMono-Regular,Consolas,monospace" font-size="11.5" opacity="0">'
+                f'<animate attributeName="opacity" values="0;0;1;1;0" keyTimes="{key_times}" dur="{BOOT_DUR}s" repeatCount="indefinite"/>'
+                f'<tspan fill="{t["chrome"]}" font-weight="700">rupal2k@enterprise</tspan>'
+                f'<tspan fill="{t["muted"]}">:~$</tspan>'
+                f'<tspan fill="{t["text"]}"> ./init_ops.sh</tspan>'
+                f'</text>'
+            )
+        elif style == "online":
+            line_markup = (
+                f'<text x="56" y="{y_pos:.1f}" font-family="ui-monospace,SFMono-Regular,Consolas,monospace" font-size="11.5" font-weight="700" opacity="0">'
+                f'<animate attributeName="opacity" values="0;0;1;1;0" keyTimes="{key_times}" dur="{BOOT_DUR}s" repeatCount="indefinite"/>'
+                f'<tspan fill="{t["status"]}">● SYSTEM ONLINE</tspan>'
+                f'<tspan fill="{t["muted"]}"> · ALL CHECKS PASS</tspan>'
+                f'</text>'
+            )
+        else:
+            line_markup = (
+                f'<text x="56" y="{y_pos:.1f}" fill="{t["text"]}" font-family="ui-monospace,SFMono-Regular,Consolas,monospace" font-size="11.5" opacity="0">'
+                f'<animate attributeName="opacity" values="0;0;1;1;0" keyTimes="{key_times}" dur="{BOOT_DUR}s" repeatCount="indefinite"/>'
+                f'{html.escape(text)}'
+                f'</text>'
+            )
+        parts.append(line_markup)
+        y_pos += line_h
+
+    # Blinking block cursor after last line
+    parts.extend([
+        f'<text x="325" y="508" fill="{t["chrome"]}" font-family="ui-monospace,SFMono-Regular,Consolas,monospace" font-size="12">█'
+        '<animate attributeName="opacity" values="1;0;1" dur="0.8s" repeatCount="indefinite"/>'
+        '</text>',
+        '</g>',  # close clip
+    ])
+
+    # RIGHT PANEL: SYSTEM.INFO
+    parts.extend([
         f'<rect x="474" y="88" width="672" height="472" rx="6" fill="{t["panel2"]}" stroke="{t["line"]}"/>',
         f'<path d="M474 124H1146" stroke="{t["line"]}"/>',
         f'<text x="490" y="111" fill="{t["chrome"]}" font-family="ui-monospace,SFMono-Regular,Consolas,monospace" font-size="13" font-weight="700" letter-spacing="1.2">SYSTEM.INFO</text>',
@@ -150,7 +224,7 @@ def render_banner(theme_name: str) -> str:
         '<text x="927" y="111" fill="#FF4D5A" font-family="ui-monospace,SFMono-Regular,Consolas,monospace" font-size="12" font-weight="700">LIVE</text>',
         f'<rect x="982" y="94" width="146" height="24" rx="12" fill="{t["chrome"]}" opacity=".16" stroke="{t["chrome"]}"/>',
         f'<text x="1055" y="111" text-anchor="middle" fill="{t["chrome"]}" font-family="ui-monospace,SFMono-Regular,Consolas,monospace" font-size="14" font-weight="700">@rupal2k</text>',
-    ]
+    ])
 
     value_right = 1127.0
     row_y = 153.0
