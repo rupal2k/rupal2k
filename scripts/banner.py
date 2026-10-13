@@ -23,7 +23,7 @@ ROWS = [
     ("Core.AI", "Agentic AI · XGBoost · Optuna · MLflow"),
     ("Core.Backend", "Python · FastAPI · PostgreSQL"),
     ("Core.Analytics", "SQL Telemetry · Streamlit · SHAP"),
-    ("Core.Automate", "n8n · REST APIs · Webhooks · Bash"),
+    ("Core.Automate", "REST APIs · Webhooks · Jenkins · Bash"),
     ("Grid.LinkedIn", "/in/rupal-das-03ba082a"),
     ("Grid.Portfolio", "rupalportfolio.vercel.app"),
     ("Grid.GitHub", "rupal2k"),

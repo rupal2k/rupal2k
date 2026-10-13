@@ -30,7 +30,7 @@
 
 ---
 
-## This is me :)
+## About me
 
 Hi, I'm **Rupal**, Client Success & Technical Operations Lead, broadcasting from Kolkata, India 🇮🇳.
 I bridge the gap between enterprise clients, scalable SaaS architecture, and applied AI systems — owning rollouts end-to-end from discovery and API integrations to go-live and telemetry.
@@ -39,7 +39,7 @@ I bridge the gap between enterprise clients, scalable SaaS architecture, and app
 - 🎓 **Executive Program in AI for Business at [IIM Lucknow](https://www.iiml.ac.in)**: Applied focus on using Generative AI and agentic systems for client enablement and operations — cutting L&D content production time by ~40%.
 - ⚡ **Hands-on Technical Delivery**: Configuring platform customizations through Jenkins pipelines, validating REST integrations in Postman, and engineering SQL telemetry pipelines that anchor executive QBRs.
 - 🎯 **A Proven Track Record**: 15+ enterprise rollouts delivered with **zero missed go-lives**, **20% SLA uplift** through P1/P2 escalation leadership, and **30% reduction in early-stage churn**.
-- 🤖 **Obsessed with Applied AI & Automation**: Building agentic workflows (FastAPI, XGBoost, n8n, Streamlit) that turn manual operational friction into automated pipelines.
+- 🤖 **Obsessed with Applied AI & Automation**: Building agentic workflows (FastAPI, XGBoost, Streamlit, Python) that turn manual operational friction into automated pipelines.
 - 📜 **Certified Scrum Master (CSM®)** & Google IT Support Professional.
 - 💬 Talk to me about **enterprise SaaS onboarding, agentic AI, or workflow automation** and you'll have my full attention.
 

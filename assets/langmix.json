@@ -6,7 +6,7 @@
     { "label": "FastAPI",         "value": 85 },
     { "label": "SQL & PostgreSQL","value": 86 },
     { "label": "Docker & Linux",  "value": 84 },
-    { "label": "n8n Automation",  "value": 85 },
+    { "label": "REST APIs",       "value": 88 },
     { "label": "Bash / Shell",    "value": 82 },
     { "label": "Streamlit",       "value": 80 }
   ]
