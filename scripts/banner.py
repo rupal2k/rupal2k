@@ -2,8 +2,8 @@
 """
 banner.py - generate animated terminal profile banner SVG for dark and light modes.
 Stdlib only.
-Features a live terminal computer boot sequence animation on the left panel
-and a system info spec sheet on the right panel.
+Features an authentic live terminal computer boot sequence animation on the left panel
+and a stable, glowing live system spec sheet on the right panel.
 """
 
 from __future__ import annotations
@@ -12,7 +12,7 @@ import html
 from pathlib import Path
 
 W, H = 1180, 610
-BOOT_DUR = 12.0  # seconds per loop
+BOOT_DUR = 16.0  # seconds per loop
 
 ROWS = [
     ("Subject", "Rupal Das"),
@@ -33,22 +33,23 @@ ROWS = [
 ]
 
 BOOT_LOGS = [
-    (0.2, "dim", "> BOOT ROM v4.12 (x86_64 UEFI) ... OK"),
-    (0.6, "dim", "> MEMORY CHECK: 64 GB ECC OK"),
-    (1.0, "text", "> KERNEL: Linux 6.8.0-telemetry-x86_64"),
-    (1.4, "dim", "> MOUNTING ROOT FS [/dev/nvme0n1] ... OK"),
-    (1.9, "cyan", "> INITIALIZING SYSTEM DAEMONS:"),
-    (2.4, "ok", "systemd-networkd.service"),
-    (2.9, "ok", "pinet-edge-telemetry.service"),
-    (3.4, "ok", "aegis-ml-pipeline.service"),
-    (3.9, "ok", "rest-api-gateway (port 443)"),
-    (4.4, "ok", "jenkins-webhook-agent.service"),
-    (4.9, "ok", "postgresql-cluster.service"),
-    (5.5, "dim", "> NODE: IND-CCU [22.57°N, 88.36°E]"),
-    (6.1, "accent", "> SLA GOVERNANCE: 99.8% [ENFORCED]"),
-    (6.7, "cyan", "> RUNLEVEL: 5 · MULTI-USER TARGET"),
-    (7.3, "prompt", "rupal2k@enterprise:~$ ./init_ops.sh"),
-    (8.0, "online", "● ALL SYSTEMS NOMINAL · RUNNING"),
+    (0.2, "dim", "> BOOT ROM v4.18 (x86_64 UEFI) ... OK"),
+    (0.5, "dim", "> MEMORY: 64 GB ECC DDR5 ... VERIFIED"),
+    (0.8, "text", "> KERNEL: Linux 6.8.0-telemetry-x86_64"),
+    (1.1, "dim", "> NVMe ROOT FS [/dev/nvme0n1p2] ... MOUNTED"),
+    (1.5, "cyan", "> INITIALIZING SYSTEM DAEMONS:"),
+    (1.9, "ok", "systemd-networkd.service (dual-stack)"),
+    (2.3, "ok", "pinet-edge-telemetry.service"),
+    (2.7, "ok", "aegis-ml-pipeline.service [FastAPI]"),
+    (3.1, "ok", "postgresql-cluster.service [pg16]"),
+    (3.5, "ok", "jenkins-webhook-agent.service"),
+    (3.9, "ok", "rest-api-gateway.service (:443 TLS)"),
+    (4.4, "dim", "> NODE: IND-CCU [22.57°N, 88.36°E]"),
+    (4.9, "cyan", "> RUNLEVEL: 5 · MULTI-USER TARGET READY"),
+    (5.4, "prompt", "rupal2k@enterprise:~$ ./init_ops.sh"),
+    (6.0, "accent", "↳ SLA ENFORCEMENT: 99.8% [ACTIVE]"),
+    (6.5, "accent", "↳ P1/P2 ESCALATION MONITOR: ONLINE"),
+    (7.0, "online", "● ALL SYSTEMS NOMINAL · RUNNING"),
 ]
 
 THEMES = {
@@ -111,6 +112,9 @@ def render_banner(theme_name: str) -> str:
         '<feMerge><feMergeNode/><feMergeNode in="SourceGraphic"/></feMerge>',
         '</filter>',
         '<clipPath id="bootClip"><rect x="49" y="124" width="390" height="426" rx="4"/></clipPath>',
+        '<pattern id="scanlines" width="100%" height="4" patternUnits="userSpaceOnUse">',
+        '<line x1="0" y1="0" x2="100%" y2="0" stroke="#000000" stroke-width="1" opacity="0.08"/>',
+        '</pattern>',
         '</defs>',
         # Main background & Window Frame
         f'<rect width="{W}" height="{H}" rx="18" fill="{t["bg"]}"/>',
@@ -125,30 +129,30 @@ def render_banner(theme_name: str) -> str:
 
         # LEFT PANEL: TERMINAL BOOT SEQUENCE
         f'<rect x="35" y="88" width="418" height="472" rx="6" fill="{t["panel2"]}" stroke="{t["line"]}"/>',
+        f'<rect x="35" y="88" width="418" height="472" rx="6" fill="url(#scanlines)" pointer-events="none"/>',
         f'<path d="M35 124H453" stroke="{t["line"]}"/>',
         f'<text x="49" y="111" fill="{t["chrome"]}" font-family="ui-monospace,SFMono-Regular,Consolas,monospace" font-size="13" font-weight="700" letter-spacing="1.2">SYS.BOOT_LOG</text>',
         f'<text x="438" y="111" text-anchor="end" fill="{t["muted"]}" font-family="ui-monospace,SFMono-Regular,Consolas,monospace" font-size="11">TTY: /dev/tty0</text>',
-        
+
         # Terminal Corner Accents
         f'<path d="M49 135h10M49 135v10M439 135h-10M439 135v10M49 548h10M49 548v-10M439 548h-10M439 548v-10" fill="none" stroke="{t["chrome"]}" opacity=".55"/>',
 
         # Animated Boot Progress Bar (top of left terminal screen)
         f'<rect x="52" y="133" width="384" height="3" rx="1.5" fill="{t["line"]}"/>',
         f'<rect x="52" y="133" height="3" rx="1.5" fill="{t["chrome"]}">'
-        f'<animate attributeName="width" values="0;120;250;384;384;0" keyTimes="0;0.25;0.52;0.75;0.93;1" dur="{BOOT_DUR}s" repeatCount="indefinite"/>'
+        f'<animate attributeName="width" values="0;120;260;384;384;0" keyTimes="0;0.20;0.45;0.70;0.95;1" dur="{BOOT_DUR}s" repeatCount="indefinite"/>'
         '</rect>',
 
         # Terminal lines clipped inside screen
         '<g clip-path="url(#bootClip)">',
     ]
 
-    # Render each boot line with timed appearance
-    y_pos = 156.0
-    line_h = 23.5
+    y_pos = 154.0
+    line_h = 22.8
     for start_t, style, text in BOOT_LOGS:
         t0 = round(start_t / BOOT_DUR, 3)
-        t1 = round(min(0.93, (start_t + 0.08) / BOOT_DUR), 3)
-        key_times = f"0;{t0};{t1};0.93;1"
+        t1 = round(min(0.95, (start_t + 0.08) / BOOT_DUR), 3)
+        key_times = f"0;{t0};{t1};0.95;1"
 
         if style == "ok":
             line_markup = (
@@ -192,8 +196,8 @@ def render_banner(theme_name: str) -> str:
             line_markup = (
                 f'<text x="56" y="{y_pos:.1f}" font-family="ui-monospace,SFMono-Regular,Consolas,monospace" font-size="11.5" font-weight="700" opacity="0">'
                 f'<animate attributeName="opacity" values="0;0;1;1;0" keyTimes="{key_times}" dur="{BOOT_DUR}s" repeatCount="indefinite"/>'
-                f'<tspan fill="{t["status"]}">● SYSTEM ONLINE</tspan>'
-                f'<tspan fill="{t["muted"]}"> · ALL CHECKS PASS</tspan>'
+                f'<tspan fill="{t["status"]}">● ALL SYSTEMS NOMINAL</tspan>'
+                f'<tspan fill="{t["muted"]}"> · RUNNING</tspan>'
                 f'</text>'
             )
         else:
@@ -207,9 +211,11 @@ def render_banner(theme_name: str) -> str:
         y_pos += line_h
 
     # Blinking block cursor after last line
+    cursor_t0 = round(7.0 / BOOT_DUR, 3)
     parts.extend([
-        f'<text x="325" y="508" fill="{t["chrome"]}" font-family="ui-monospace,SFMono-Regular,Consolas,monospace" font-size="12">█'
-        '<animate attributeName="opacity" values="1;0;1" dur="0.8s" repeatCount="indefinite"/>'
+        f'<text x="315" y="{y_pos - line_h:.1f}" fill="{t["chrome"]}" font-family="ui-monospace,SFMono-Regular,Consolas,monospace" font-size="12" opacity="0">'
+        f'<animate attributeName="opacity" values="0;0;1;1;0" keyTimes="0;{cursor_t0};{cursor_t0 + 0.01};0.95;1" dur="{BOOT_DUR}s" repeatCount="indefinite"/>'
+        '█'
         '</text>',
         '</g>',  # close clip
     ])
@@ -219,29 +225,31 @@ def render_banner(theme_name: str) -> str:
         f'<rect x="474" y="88" width="672" height="472" rx="6" fill="{t["panel2"]}" stroke="{t["line"]}"/>',
         f'<path d="M474 124H1146" stroke="{t["line"]}"/>',
         f'<text x="490" y="111" fill="{t["chrome"]}" font-family="ui-monospace,SFMono-Regular,Consolas,monospace" font-size="13" font-weight="700" letter-spacing="1.2">SYSTEM.INFO</text>',
+
         # LIVE pulse & @rupal2k pill
-        f'<g filter="url(#glow)"><circle cx="915" cy="106" r="4" fill="{t["chrome"]}"><animate attributeName="opacity" values="1;.3;1" dur="1.6s" repeatCount="indefinite"/></circle></g>',
+        f'<g filter="url(#glow)">',
+        f'<circle cx="915" cy="106" r="3.5" fill="{t["chrome"]}"/>',
+        f'<circle cx="915" cy="106" r="3.5" fill="{t["chrome"]}">'
+        f'<animate attributeName="r" values="3.5;7.5;3.5" dur="2.2s" repeatCount="indefinite"/>'
+        f'<animate attributeName="opacity" values="0.8;0;0.8" dur="2.2s" repeatCount="indefinite"/>'
+        f'</circle>',
+        f'</g>',
         f'<text x="927" y="111" fill="{t["chrome"]}" font-family="ui-monospace,SFMono-Regular,Consolas,monospace" font-size="12" font-weight="700">LIVE</text>',
-        f'<rect x="982" y="94" width="146" height="24" rx="12" fill="{t["chrome"]}" opacity=".16" stroke="{t["chrome"]}"/>',
+        f'<rect x="982" y="94" width="146" height="24" rx="12" fill="{t["chrome"]}" fill-opacity=".12" stroke="{t["chrome"]}" stroke-width="1.2"/>',
         f'<text x="1055" y="111" text-anchor="middle" fill="{t["chrome"]}" font-family="ui-monospace,SFMono-Regular,Consolas,monospace" font-size="14" font-weight="700">@rupal2k</text>',
     ])
 
     value_right = 1127.0
     row_y = 153.0
-    for i, (label, value) in enumerate(ROWS):
+    for label, value in ROWS:
         value_len = text_width(value, 14)
         label_len = text_width(label, 14)
         leader_start = 491 + label_len + 12
         leader_end = value_right - value_len - 12
         leader_d = dotted_leader(leader_start, leader_end, row_y - 4)
-        row_t = 0.5 + i * 0.4
-        t0 = round(row_t / BOOT_DUR, 3)
-        t1 = round(min(0.93, (row_t + 0.08) / BOOT_DUR), 3)
-        key_times = f"0;{t0};{t1};0.93;1"
 
         parts.extend([
-            f'<g opacity="0">',
-            f'<animate attributeName="opacity" values="0;0;1;1;0" keyTimes="{key_times}" dur="{BOOT_DUR}s" repeatCount="indefinite"/>',
+            f'<g>',
             f'<text x="491" y="{row_y:.0f}" fill="{t["muted"]}" font-family="ui-monospace,SFMono-Regular,Consolas,monospace" font-size="14">{html.escape(label)}</text>',
             f'<path d="{leader_d}" fill="none" stroke="{t["line"]}" stroke-width="1" shape-rendering="crispEdges"/>',
             f'<text x="{value_right:.0f}" y="{row_y:.0f}" text-anchor="end" fill="{t["text"]}" font-family="ui-monospace,SFMono-Regular,Consolas,monospace" font-size="14" textLength="{value_len:.1f}" lengthAdjust="spacingAndGlyphs">{html.escape(value)}</text>',
@@ -249,15 +257,15 @@ def render_banner(theme_name: str) -> str:
         ])
         row_y += 24.5
 
-    t_foot0 = round(6.8 / BOOT_DUR, 3)
-    t_foot1 = round(6.88 / BOOT_DUR, 3)
-    foot_key_times = f"0;{t_foot0};{t_foot1};0.93;1"
-
     parts.extend([
         f'<path d="M490 530H1130" stroke="{t["line"]}"/>',
-        f'<g opacity="0">',
-        f'<animate attributeName="opacity" values="0;0;1;1;0" keyTimes="{foot_key_times}" dur="{BOOT_DUR}s" repeatCount="indefinite"/>',
-        f'<text x="491" y="548" fill="{t["status"]}" font-family="ui-monospace,SFMono-Regular,Consolas,monospace" font-size="11">● ALL SYSTEMS NOMINAL</text>',
+        f'<g>',
+        f'<circle cx="496" cy="544" r="3.5" fill="{t["status"]}"/>',
+        f'<circle cx="496" cy="544" r="3.5" fill="{t["status"]}">'
+        f'<animate attributeName="r" values="3.5;6.5;3.5" dur="2s" repeatCount="indefinite"/>'
+        f'<animate attributeName="opacity" values="0.8;0;0.8" dur="2s" repeatCount="indefinite"/>'
+        f'</circle>',
+        f'<text x="508" y="548" fill="{t["status"]}" font-family="ui-monospace,SFMono-Regular,Consolas,monospace" font-size="11" font-weight="600">ALL SYSTEMS NOMINAL · RUNNING</text>',
         f'<text x="1128" y="548" text-anchor="end" fill="{t["muted"]}" font-family="ui-monospace,SFMono-Regular,Consolas,monospace" font-size="11">UTC+5:30 · INDIA NODE</text>',
         f'</g>',
         '</svg>',
@@ -270,7 +278,7 @@ def main():
     out_dir.mkdir(parents=True, exist_ok=True)
     for theme in ("dark", "light"):
         dest = out_dir / f"banner-{theme}.svg"
-        dest.write_text(render_banner(theme), encoding="utf-8")
+        dest.write_text(render_banner(theme) + "\n", encoding="utf-8")
         print(f"wrote {dest}")
 
 
