@@ -1,0 +1,13 @@
+{
+  "title": "Core Competencies",
+  "_comment": "Self-rated, 0-100",
+  "axes": [
+    { "label": "Enterprise SaaS",         "value": 94 },
+    { "label": "Technical Onboarding",    "value": 92 },
+    { "label": "Incident & SLA Mgmt",     "value": 90 },
+    { "label": "Agentic AI & ML",         "value": 85 },
+    { "label": "REST APIs & Postman",     "value": 88 },
+    { "label": "CI/CD & DevOps",          "value": 82 },
+    { "label": "SQL & Telemetry",         "value": 86 }
+  ]
+}

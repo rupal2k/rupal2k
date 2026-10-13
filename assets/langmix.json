@@ -1,0 +1,13 @@
+{
+  "title": "Technical Domain Mix",
+  "_comment": "Technical tooling and language domain mix",
+  "axes": [
+    { "label": "Python",          "value": 88 },
+    { "label": "FastAPI",         "value": 85 },
+    { "label": "SQL & PostgreSQL","value": 86 },
+    { "label": "Docker & Linux",  "value": 84 },
+    { "label": "n8n Automation",  "value": 85 },
+    { "label": "Bash / Shell",    "value": 82 },
+    { "label": "Streamlit",       "value": 80 }
+  ]
+}
