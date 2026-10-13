@@ -45,47 +45,6 @@ I bridge the gap between enterprise clients, scalable SaaS architecture, and app
 
 <br>
 
-<div align="center">
-
-## my perfect stack`
-
-<img src="https://skillicons.dev/icons?i=py,fastapi,postgres,docker,linux,bash,postman,jenkins,githubactions,git,github,vscode&perline=6" alt="tech stack">
-
-</div>
-
----
-
-<div align="center">
-
-## signals 
-
-<table>
-<tr>
-<td width="50%" align="center" valign="middle">
-
-<!-- Self-rated core competencies radar -->
-<picture>
-  <source media="(prefers-color-scheme: dark)"  srcset="assets/radar-dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="assets/radar-light.svg">
-  <img src="assets/radar-dark.svg" width="400" alt="skill radar chart">
-</picture>
-
-</td>
-<td width="50%" align="center" valign="middle">
-
-<!-- Technical domain & tooling radar -->
-<picture>
-  <source media="(prefers-color-scheme: dark)"  srcset="assets/radar-langs-dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="assets/radar-langs-light.svg">
-  <img src="assets/radar-langs-dark.svg" width="400" alt="language radar chart">
-</picture>
-
-</td>
-</tr>
-</table>
-
-</div>
-
 ---
 
 <div align="center">
@@ -140,6 +99,49 @@ I bridge the gap between enterprise clients, scalable SaaS architecture, and app
 </a>
 
 <p align="center"><sub><b>PINET</b> · Portable Cyber-deck OS & Edge Operations Interface</sub></p>
+
+</td>
+</tr>
+</table>
+
+</div>
+
+---
+
+<div align="center">
+
+## my perfect stack`
+
+<img src="https://skillicons.dev/icons?i=py,fastapi,postgres,docker,linux,bash,postman,jenkins,githubactions,git,github,vscode&perline=6" alt="tech stack">
+
+</div>
+
+---
+
+<div align="center">
+
+## signals 
+
+<table>
+<tr>
+<td width="50%" align="center" valign="middle">
+
+<!-- Self-rated core competencies radar -->
+<picture>
+  <source media="(prefers-color-scheme: dark)"  srcset="assets/radar-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="assets/radar-light.svg">
+  <img src="assets/radar-dark.svg" width="400" alt="skill radar chart">
+</picture>
+
+</td>
+<td width="50%" align="center" valign="middle">
+
+<!-- Technical domain & tooling radar -->
+<picture>
+  <source media="(prefers-color-scheme: dark)"  srcset="assets/radar-langs-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="assets/radar-langs-light.svg">
+  <img src="assets/radar-langs-dark.svg" width="400" alt="language radar chart">
+</picture>
 
 </td>
 </tr>
