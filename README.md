@@ -101,42 +101,45 @@ I bridge the gap between enterprise clients, scalable SaaS architecture, and app
 
 <br>
 
-<!-- Featured Repositories -->
+<!-- Featured Repositories & Minimal Previews -->
 <table>
 <tr>
-<td width="50%" align="center" valign="middle">
+<td width="50%" align="center" valign="top">
 
 <a href="https://github.com/rupal2k/aegis-ai">
 <picture>
   <source media="(prefers-color-scheme: dark)"  srcset="assets/card-aegis-ai-dark.svg">
   <source media="(prefers-color-scheme: light)" srcset="assets/card-aegis-ai-light.svg">
-  <img src="assets/card-aegis-ai-dark.svg" width="400" alt="Aegis AI">
+  <img src="assets/card-aegis-ai-dark.svg" width="100%" alt="Aegis AI">
 </picture>
 </a>
 
-</td>
-<td width="50%" align="center" valign="middle">
+<br><br>
 
-<a href="https://github.com/rupal2k/fintrak">
-<picture>
-  <source media="(prefers-color-scheme: dark)"  srcset="assets/card-fintrak-dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="assets/card-fintrak-light.svg">
-  <img src="assets/card-fintrak-dark.svg" width="400" alt="Fintrak">
-</picture>
+<a href="https://github.com/rupal2k/aegis-ai">
+  <img src="assets/screenshots/aegis-preview.png" width="100%" alt="Aegis AI Dashboard Preview">
 </a>
 
+<p align="center"><sub><b>Aegis AI</b> · Health Risk Scoring & Underwriting Dashboard (<a href="https://huggingface.co/spaces/Rupa2k/aegis-ai">Live Demo ↗</a>)</sub></p>
+
 </td>
-</tr>
-<tr>
-<td colspan="2" align="center" valign="middle">
+<td width="50%" align="center" valign="top">
 
 <a href="https://github.com/rupal2k/pinet">
 <picture>
   <source media="(prefers-color-scheme: dark)"  srcset="assets/card-pinet-dark.svg">
   <source media="(prefers-color-scheme: light)" srcset="assets/card-pinet-light.svg">
-  <img src="assets/card-pinet-dark.svg" width="400" alt="PINET">
+  <img src="assets/card-pinet-dark.svg" width="100%" alt="PINET">
 </picture>
 </a>
+
+<br><br>
+
+<a href="https://github.com/rupal2k/pinet">
+  <img src="assets/screenshots/pinet-preview.png" width="100%" alt="PINET Cyberdeck Interface Preview">
+</a>
+
+<p align="center"><sub><b>PINET</b> · Portable Cyber-deck OS & Edge Operations Interface</sub></p>
 
 </td>
 </tr>

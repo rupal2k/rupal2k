@@ -6,10 +6,6 @@
       "description": "Enterprise AI-powered Health Risk Scoring (HRS) and Insurance Underwriting engine with FastAPI, XGBoost, Optuna, and MLflow."
     },
     {
-      "repo": "fintrak",
-      "description": "Self-hosted personal finance tracking system integrating Telegram Bot, n8n automation pipelines, OCR receipt processing, and Google Sheets."
-    },
-    {
       "repo": "pinet",
       "description": "Modular edge computing cyber-deck and network operations station with Flask captive portal, e-ink telemetry dashboard, and systemd daemons."
     }
