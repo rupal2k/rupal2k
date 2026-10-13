@@ -228,23 +228,38 @@ def render_banner(theme_name: str) -> str:
 
     value_right = 1127.0
     row_y = 153.0
-    for label, value in ROWS:
+    for i, (label, value) in enumerate(ROWS):
         value_len = text_width(value, 14)
         label_len = text_width(label, 14)
         leader_start = 491 + label_len + 12
         leader_end = value_right - value_len - 12
         leader_d = dotted_leader(leader_start, leader_end, row_y - 4)
+        row_t = 0.5 + i * 0.4
+        t0 = round(row_t / BOOT_DUR, 3)
+        t1 = round(min(0.93, (row_t + 0.08) / BOOT_DUR), 3)
+        key_times = f"0;{t0};{t1};0.93;1"
+
         parts.extend([
+            f'<g opacity="0">',
+            f'<animate attributeName="opacity" values="0;0;1;1;0" keyTimes="{key_times}" dur="{BOOT_DUR}s" repeatCount="indefinite"/>',
             f'<text x="491" y="{row_y:.0f}" fill="{t["muted"]}" font-family="ui-monospace,SFMono-Regular,Consolas,monospace" font-size="14">{html.escape(label)}</text>',
             f'<path d="{leader_d}" fill="none" stroke="{t["line"]}" stroke-width="1" shape-rendering="crispEdges"/>',
             f'<text x="{value_right:.0f}" y="{row_y:.0f}" text-anchor="end" fill="{t["text"]}" font-family="ui-monospace,SFMono-Regular,Consolas,monospace" font-size="14" textLength="{value_len:.1f}" lengthAdjust="spacingAndGlyphs">{html.escape(value)}</text>',
+            f'</g>',
         ])
         row_y += 24.5
 
+    t_foot0 = round(6.8 / BOOT_DUR, 3)
+    t_foot1 = round(6.88 / BOOT_DUR, 3)
+    foot_key_times = f"0;{t_foot0};{t_foot1};0.93;1"
+
     parts.extend([
         f'<path d="M490 530H1130" stroke="{t["line"]}"/>',
+        f'<g opacity="0">',
+        f'<animate attributeName="opacity" values="0;0;1;1;0" keyTimes="{foot_key_times}" dur="{BOOT_DUR}s" repeatCount="indefinite"/>',
         f'<text x="491" y="548" fill="{t["status"]}" font-family="ui-monospace,SFMono-Regular,Consolas,monospace" font-size="11">● ALL SYSTEMS NOMINAL</text>',
         f'<text x="1128" y="548" text-anchor="end" fill="{t["muted"]}" font-family="ui-monospace,SFMono-Regular,Consolas,monospace" font-size="11">UTC+5:30 · INDIA NODE</text>',
+        f'</g>',
         '</svg>',
     ])
     return "".join(parts)
