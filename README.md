@@ -48,13 +48,28 @@ I bridge the gap between enterprise clients, scalable SaaS architecture, and app
 ## My Github Stats
 
 <!-- Rendered directly by scripts/cards.py into this repo: stable, fast, immune to third-party downtime -->
+<table>
+<tr>
+<td width="50%" align="center" valign="top">
+
 <picture>
   <source media="(prefers-color-scheme: dark)"  srcset="assets/card-stats-dark.svg">
   <source media="(prefers-color-scheme: light)" srcset="assets/card-stats-light.svg">
-  <img src="assets/card-stats-dark.svg" width="480" alt="GitHub statistics">
+  <img src="assets/card-stats-dark.svg" width="100%" alt="GitHub statistics">
 </picture>
 
-<br>
+</td>
+<td width="50%" align="center" valign="top">
+
+<picture>
+  <source media="(prefers-color-scheme: dark)"  srcset="assets/card-top-langs-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="assets/card-top-langs-light.svg">
+  <img src="assets/card-top-langs-dark.svg" width="100%" alt="Most Used Languages">
+</picture>
+
+</td>
+</tr>
+</table>
 
 <!-- Featured Repositories & Minimal Previews -->
 <table>
@@ -69,7 +84,9 @@ I bridge the gap between enterprise clients, scalable SaaS architecture, and app
 </picture>
 </a>
 
-<br><br>
+<p align="center">
+  <img src="assets/stack-aegis-ai.svg" alt="Aegis AI Tech Stack">
+</p>
 
 <a href="https://github.com/rupal2k/aegis-ai">
   <img src="assets/screenshots/aegis-preview.png" width="100%" alt="Aegis AI Dashboard Preview">
@@ -88,7 +105,9 @@ I bridge the gap between enterprise clients, scalable SaaS architecture, and app
 </picture>
 </a>
 
-<br><br>
+<p align="center">
+  <img src="assets/stack-pinet.svg" alt="PINET Tech Stack">
+</p>
 
 <a href="https://github.com/rupal2k/pinet">
   <img src="assets/screenshots/pinet-preview.png" width="100%" alt="PINET Cyberdeck Interface Preview">
@@ -106,9 +125,9 @@ I bridge the gap between enterprise clients, scalable SaaS architecture, and app
 
 <div align="center">
 
-## my perfect stack`
+## my perfect stack
 
-<img src="https://skillicons.dev/icons?i=py,fastapi,postgres,docker,linux,bash,postman,jenkins,githubactions,git,github,vscode&perline=6" alt="tech stack">
+<img src="assets/stack-perfect.svg" alt="tech stack">
 
 </div>
 
@@ -116,7 +135,7 @@ I bridge the gap between enterprise clients, scalable SaaS architecture, and app
 
 <div align="center">
 
-## signals 
+## Core Competencies & Domain Expertise
 
 <table>
 <tr>
