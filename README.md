@@ -10,6 +10,7 @@
 <!-- SOCIALS & DYNAMIC VISITOR COUNTER -->
 <a href="https://www.linkedin.com/in/rupal-das-03ba082a/"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"></a>&nbsp;&nbsp;
 <a href="https://rupalportfolio.vercel.app/"><img src="https://img.shields.io/badge/Portfolio-0d1117?style=for-the-badge&logo=vercel&logoColor=a3e635" alt="Portfolio"></a>&nbsp;&nbsp;
+<a href="https://www.youtube.com/@wand3ring_monk859" target="_blank"><img src="https://img.shields.io/badge/YouTube-FF0000?style=for-the-badge&logo=youtube&logoColor=white" alt="YouTube"></a>&nbsp;&nbsp;
 <a href="mailto:rupal2k@gmail.com"><img src="https://img.shields.io/badge/Email-0d1117?style=for-the-badge&logo=gmail&logoColor=a3e635" alt="Email"></a>&nbsp;&nbsp;
 <a href="https://www.linkedin.com/in/rupal-das-03ba082a/"><img src="https://img.shields.io/badge/ScrumMaster-0d1117?style=for-the-badge&logo=scrumalliance&logoColor=a3e635" alt="CSM"></a>&nbsp;&nbsp;
 <img src="https://komarev.com/ghpvc/?username=rupal2k&label=Profile%20Views&color=A3E635&style=for-the-badge&logo=github&logoColor=0d1117" alt="Profile Views">
@@ -25,7 +26,7 @@
 
 <br><br>
 
-[About Me](#about-me) • [Flagship Engineering](#flagship-engineering) • [Live GitHub Telemetry](#github-telemetry) • [Technical Ecosystem](#technical-ecosystem) • [Core Competencies](#core-competencies)
+[About Me](#about-me) • [Flagship Engineering](#flagship-engineering) • [Live GitHub Telemetry](#github-telemetry) • [My StacK](#my-stack) • [Core Competencies](#core-competencies) • [Hobbies & Exploration](#hobbies)
 
 </div>
 
@@ -207,9 +208,9 @@ Here are the primary production systems and edge architectures I've engineered:
 
 ---
 
-<div id="technical-ecosystem"></div>
+<div id="my-stack"></div>
 
-## ⚡ Technical Ecosystem & Toolchain
+## ⚡ My StacK
 
 <div align="center">
 
@@ -271,8 +272,40 @@ Here are the primary production systems and edge architectures I've engineered:
 
 ---
 
+<div id="hobbies"></div>
+
+## 🏕️ Beyond the Terminal · Wandering & Visual Storytelling
+
+When I'm away from deployment pipelines, API integrations, and terminal prompts, I hit the road to explore offbeat trails, travel, and document life's journeys through visual storytelling.
+
 <div align="center">
 
-<sub>` Built with precision & passion · @rupal2k `</sub>
+<a href="https://www.youtube.com/@wand3ring_monk859" target="_blank">
+  <img src="https://img.shields.io/badge/YouTube-Wand3ring__Monk-FF0000?style=for-the-badge&logo=youtube&logoColor=white" alt="Wand3ring_monk YouTube Channel">
+</a>&nbsp;&nbsp;
+<a href="https://www.youtube.com/@wand3ring_monk859" target="_blank">
+  <img src="https://img.shields.io/badge/Channel-@wand3ring__monk859-0d1117?style=for-the-badge&logo=youtube&logoColor=FF0000" alt="@wand3ring_monk859">
+</a>
+
+<br><br>
+
+> *"Hi, I am Rupal Das. This is my journey through life."*  
+> Documenting overland travels, offbeat expeditions, cultural landscapes, and unfiltered journeys on my YouTube channel **[Wand3ring_monk](https://www.youtube.com/@wand3ring_monk859)**.
+
+<br>
+
+<a href="https://www.youtube.com/@wand3ring_monk859" target="_blank">
+  <img src="https://img.shields.io/badge/▶%20Watch%20Journeys%20on%20YouTube-FF0000?style=for-the-badge&logo=youtube&logoColor=white" alt="Watch Journeys on YouTube">
+</a>
+
+</div>
+
+<p align="right"><a href="#top">↑ Back to Top</a></p>
+
+---
+
+<div align="center">
+
+<sub><b>Rupal Das</b> · Enterprise Technical Operations, Cloud Delivery & Applied AI Systems · <a href="https://github.com/rupal2k">@rupal2k</a></sub>
 
 </div>
