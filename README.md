@@ -25,7 +25,7 @@
 
 <br><br>
 
-[About Me](#about-me) • [Flagship Engineering](#flagship-engineering) • [Live GitHub Telemetry](#github-telemetry) • [My StacK](#my-stack) • [Core Competencies](#core-competencies) • [Hobbies & Exploration](#hobbies)
+[About Me](#about-me) • [My Tinkers](#my-tinkers) • [Live GitHub Telemetry](#github-telemetry) • [My StacK](#my-stack) • [Core Competencies](#core-competencies) • [Hobbies & Exploration](#hobbies)
 
 </div>
 
@@ -50,9 +50,10 @@ I bridge the gap between enterprise clients, scalable SaaS architecture, and app
 
 ---
 
+<div id="my-tinkers"></div>
 <div id="flagship-engineering" align="center">
 
-## 🚀 Flagship Engineering & Systems Architecture
+## 🚀 My Tinkers
 
 <!-- Featured Repositories & Minimal Previews -->
 <table>
