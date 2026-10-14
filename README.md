@@ -1,4 +1,4 @@
-<div align="center">
+<div id="top" align="center">
 
 <!-- NAME / TAGLINE - animated typing -->
 <a href="https://github.com/rupal2k">
@@ -7,11 +7,12 @@
 
 <br><br>
 
-<!-- SOCIALS — LinkedIn brand blue, others themed with lime green accent -->
+<!-- SOCIALS & DYNAMIC VISITOR COUNTER -->
 <a href="https://www.linkedin.com/in/rupal-das-03ba082a/"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"></a>&nbsp;&nbsp;
 <a href="https://rupalportfolio.vercel.app/"><img src="https://img.shields.io/badge/Portfolio-0d1117?style=for-the-badge&logo=vercel&logoColor=a3e635" alt="Portfolio"></a>&nbsp;&nbsp;
 <a href="mailto:rupal2k@gmail.com"><img src="https://img.shields.io/badge/Email-0d1117?style=for-the-badge&logo=gmail&logoColor=a3e635" alt="Email"></a>&nbsp;&nbsp;
-<a href="https://www.linkedin.com/in/rupal-das-03ba082a/"><img src="https://img.shields.io/badge/ScrumMaster-0d1117?style=for-the-badge&logo=scrumalliance&logoColor=a3e635" alt="CSM"></a>
+<a href="https://www.linkedin.com/in/rupal-das-03ba082a/"><img src="https://img.shields.io/badge/ScrumMaster-0d1117?style=for-the-badge&logo=scrumalliance&logoColor=a3e635" alt="CSM"></a>&nbsp;&nbsp;
+<img src="https://komarev.com/ghpvc/?username=rupal2k&label=Profile%20Views&color=A3E635&style=for-the-badge&logo=github&logoColor=0d1117" alt="Profile Views">
 
 <br><br>
 
@@ -22,9 +23,15 @@
   <img src="assets/banner-dark.svg" width="100%" alt="rupal.sh --live">
 </picture>
 
+<br><br>
+
+[About Me](#about-me) • [Flagship Engineering](#flagship-engineering) • [Live GitHub Telemetry](#github-telemetry) • [Technical Ecosystem](#technical-ecosystem) • [Core Competencies](#core-competencies)
+
 </div>
 
 ---
+
+<div id="about-me"></div>
 
 ## About me
 
@@ -39,101 +46,172 @@ I bridge the gap between enterprise clients, scalable SaaS architecture, and app
 - 📜 **Certified Scrum Master (CSM®)** & Google IT Support Professional.
 - 💬 Talk to me about **enterprise SaaS onboarding, agentic AI, or workflow automation** and you'll have my full attention.
 
-<br>
+<p align="right"><a href="#top">↑ Back to Top</a></p>
 
 ---
 
+<div id="flagship-engineering"></div>
+
+## 🚀 Flagship Engineering & Systems Architecture
+
+Here are the primary production systems and edge architectures I've engineered:
+
+### 1. 🛡️ [Aegis AI](https://github.com/rupal2k/aegis-ai) — Enterprise Health-Risk Underwriting & Dynamic Pricing Platform
+
+<p align="left">
+  <a href="https://github.com/rupal2k/aegis-ai/stargazers"><img src="https://img.shields.io/github/stars/rupal2k/aegis-ai?style=flat-square&logo=github&label=Stars&color=a3e635" alt="Aegis AI Stars"></a>&nbsp;
+  <a href="https://github.com/rupal2k/aegis-ai/network/members"><img src="https://img.shields.io/github/forks/rupal2k/aegis-ai?style=flat-square&logo=github&label=Forks&color=38bdf8" alt="Aegis AI Forks"></a>&nbsp;
+  <a href="https://github.com/rupal2k/aegis-ai/commits/main"><img src="https://img.shields.io/github/last-commit/rupal2k/aegis-ai?style=flat-square&logo=github&label=Updated&color=94a3b8" alt="Last Commit"></a>&nbsp;
+  <a href="https://github.com/rupal2k/aegis-ai/actions/workflows/ci.yml"><img src="https://img.shields.io/github/actions/workflow/status/rupal2k/aegis-ai/ci.yml?branch=main&label=CI&style=flat-square" alt="CI Status"></a>&nbsp;
+  <a href="https://aegis-ai-wss8.onrender.com/docs"><img src="https://img.shields.io/website?url=https%3A%2F%2Faegis-ai-wss8.onrender.com%2Fhealth&label=API%20Health&up_message=online&down_message=offline&style=flat-square" alt="API Health"></a>&nbsp;
+  <a href="https://huggingface.co/spaces/Rupa2k/aegis-ai"><img src="https://img.shields.io/badge/Live%20Demo-Hugging%20Face-fcd34d?style=flat-square&logo=huggingface" alt="Live Demo"></a>&nbsp;
+  <a href="https://github.com/rupal2k/aegis-ai/blob/main/LICENSE"><img src="https://img.shields.io/badge/License-MIT-blue?style=flat-square" alt="License"></a>
+</p>
+
+> **Transforms group health insurance from reactive trailing-claims pricing to proactive, continuous biometric risk scoring with game-theoretic TreeSHAP explainability and actuarial premium adjustments.**
+
+- ⚡ **31-Feature Matrix with Monotone Constraints**: Fits an XGBoost regressor predicting `log(loss_ratio)` with Optuna 5-fold cross-validation and strict actuarial constraints (age, smoking, and BMI can never decrease risk; steps, aerobic activity, and SpO2 can never increase risk).
+- 🔍 **TreeSHAP Risk Attribution**: Exact Shapley value decomposition surfacing localized top-5 plain-language risk contributors per life for full auditability.
+- 📊 **Dynamic Actuarial Pricing Engine**: Dynamic mapping across Discount (0–40 HRS, up to –15%), Standard (41–60 HRS), and Loading (61–100 HRS, up to +30%) zones calibrated across 20 industries, 6 geographic regions, and 4 sum assured tiers.
+- 💼 **Dual-Persona Interface**: Underwriter Workbench for portfolio risk triage & automated executive PDF memos; Corporate HR Portal for department wellbeing tracking & wellness ROI simulation.
+
+<div align="center">
+  <a href="https://github.com/rupal2k/aegis-ai">
+    <img src="assets/screenshots/aegis-preview.png" width="100%" style="border-radius: 8px; border: 1px solid #30363d; box-shadow: 0 4px 16px rgba(0,0,0,0.35);" alt="Aegis AI Underwriter Workbench Preview">
+  </a>
+  <p align="center">
+    <a href="https://github.com/rupal2k/aegis-ai"><b>📦 GitHub Repository</b></a> &nbsp;•&nbsp;
+    <a href="https://huggingface.co/spaces/Rupa2k/aegis-ai"><b>🌐 Interactive Spaces Demo</b></a> &nbsp;•&nbsp;
+    <a href="https://aegis-ai-wss8.onrender.com/docs"><b>⚡ Swagger REST API</b></a> &nbsp;•&nbsp;
+    <a href="https://github.com/rupal2k/aegis-ai/blob/main/MODEL_CARD.md"><b>📋 Model Card</b></a>
+  </p>
+</div>
+
+<br>
+
+### 2. 📟 [PINET](https://github.com/rupal2k/pinet) — Portable Cyberdeck OS & Edge Operations Platform
+
+<p align="left">
+  <a href="https://github.com/rupal2k/pinet/stargazers"><img src="https://img.shields.io/github/stars/rupal2k/pinet?style=flat-square&logo=github&label=Stars&color=a3e635" alt="PINET Stars"></a>&nbsp;
+  <a href="https://github.com/rupal2k/pinet/network/members"><img src="https://img.shields.io/github/forks/rupal2k/pinet?style=flat-square&logo=github&label=Forks&color=38bdf8" alt="PINET Forks"></a>&nbsp;
+  <a href="https://github.com/rupal2k/pinet/commits/main"><img src="https://img.shields.io/github/last-commit/rupal2k/pinet?style=flat-square&logo=github&label=Updated&color=94a3b8" alt="Last Commit"></a>&nbsp;
+  <a href="https://github.com/rupal2k/pinet"><img src="https://img.shields.io/badge/Architecture-ARMv8%20%7C%2064--bit-blue?style=flat-square" alt="ARMv8"></a>&nbsp;
+  <a href="https://github.com/rupal2k/pinet"><img src="https://img.shields.io/badge/OS-Debian%2013%20Trixie-d70a53?style=flat-square&logo=debian" alt="Debian 13"></a>&nbsp;
+  <a href="https://github.com/rupal2k/pinet#segregated-display-interfaces"><img src="https://img.shields.io/badge/Dual%20Display-DSI%20%2B%20e--Paper-8b5cf6?style=flat-square" alt="Dual Display"></a>&nbsp;
+  <a href="https://github.com/rupal2k/pinet#power-subsystem"><img src="https://img.shields.io/badge/Battery-8%2C400%20mAh%20(2%C3%9721700)-22c55e?style=flat-square" alt="Battery"></a>
+</p>
+
+> **Custom single-board computing station designed for resilient, offline field operations, air-gapped network administration, and edge telemetry in disconnected environments.**
+
+- 📟 **Dual-Display Architecture**: Primary front 7" 800×480 DSI touchscreen running customized lightweight desktop shell + rear 2.13" Waveshare e-Paper HAT (250×122 monochrome SPI0) rendering persistent low-power network telemetry and QR connection cards.
+- ⚡ **Autonomous Power Management**: Waveshare UPS HAT (D) dual 21700 Li-ion cells (8,400 mAh) monitored over I²C (`0x43`) via INA219 current/voltage sensor with automated safe-shutdown daemons and animated Plymouth PINET boot splash.
+- 📡 **Dual Independent Wireless Interfaces**: On-board Broadcom BCM43438 running dedicated captive hotspot AP (`wlan0`, `10.10.10.1`) with Flask portal + TP-Link Archer T2U Plus (RTL8821AU USB) for external uplink & penetration testing.
+- 🎥 **Peripheral Integration**: Sony IMX219 8 MP CSI-2 camera, MacroSilicon MS2109 USB HDMI video capture, and PipeWire Bluetooth A2DP audio sink.
+
+<div align="center">
+  <a href="https://github.com/rupal2k/pinet">
+    <img src="assets/screenshots/pinet-preview.png" width="100%" style="border-radius: 8px; border: 1px solid #30363d; box-shadow: 0 4px 16px rgba(0,0,0,0.35);" alt="PINET Cyberdeck Interface Preview">
+  </a>
+  <p align="center">
+    <a href="https://github.com/rupal2k/pinet"><b>📦 GitHub Repository</b></a> &nbsp;•&nbsp;
+    <a href="https://github.com/rupal2k/pinet#system-block-diagram"><b>🗺️ System Block Diagram</b></a> &nbsp;•&nbsp;
+    <a href="https://github.com/rupal2k/pinet#display-1-front-7-dsi-touchscreen"><b>📱 Touchscreen Shell</b></a> &nbsp;•&nbsp;
+    <a href="https://github.com/rupal2k/pinet#display-2-rear-213-e-paper-hat"><b>📟 e-Paper Telemetry</b></a>
+  </p>
+</div>
+
+<br>
+
+### Dynamic Repository Cards (Live Sync)
+
+<div align="center">
+<table width="100%">
+<tr>
+<td width="50%" align="center" valign="top">
+  <a href="https://github.com/rupal2k/aegis-ai">
+    <img src="https://github-readme-stats.vercel.app/api/pin/?username=rupal2k&repo=aegis-ai&theme=tokyonight&border_color=30363d&bg_color=0d1117&title_color=a3e635&text_color=c9d1d9&icon_color=a3e635" width="100%" alt="Aegis AI Pin">
+  </a>
+</td>
+<td width="50%" align="center" valign="top">
+  <a href="https://github.com/rupal2k/pinet">
+    <img src="https://github-readme-stats.vercel.app/api/pin/?username=rupal2k&repo=pinet&theme=tokyonight&border_color=30363d&bg_color=0d1117&title_color=a3e635&text_color=c9d1d9&icon_color=a3e635" width="100%" alt="PINET Pin">
+  </a>
+</td>
+</tr>
+</table>
+</div>
+
+<p align="right"><a href="#top">↑ Back to Top</a></p>
+
+---
+
+<div id="github-telemetry"></div>
+
+## 📊 GitHub Analytics & Real-Time Telemetry
+
+<!-- Real-time dynamic GitHub stats that update automatically on every request -->
 <div align="center">
 
-## My Github Stats
-
-<!-- Rendered directly by scripts/cards.py into this repo: stable, fast, immune to third-party downtime -->
-<table>
+<table width="100%">
 <tr>
 <td width="50%" align="center" valign="top">
-
-<picture>
-  <source media="(prefers-color-scheme: dark)"  srcset="assets/card-stats-dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="assets/card-stats-light.svg">
-  <img src="assets/card-stats-dark.svg" width="100%" alt="GitHub statistics">
-</picture>
-
+  <a href="https://github.com/rupal2k">
+    <img src="https://github-readme-stats.vercel.app/api?username=rupal2k&show_icons=true&theme=tokyonight&border_color=30363d&bg_color=0d1117&title_color=a3e635&text_color=c9d1d9&icon_color=a3e635&count_private=true" width="100%" alt="Rupal's GitHub Statistics">
+  </a>
 </td>
 <td width="50%" align="center" valign="top">
-
-<picture>
-  <source media="(prefers-color-scheme: dark)"  srcset="assets/card-top-langs-dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="assets/card-top-langs-light.svg">
-  <img src="assets/card-top-langs-dark.svg" width="100%" alt="Most Used Languages">
-</picture>
-
+  <a href="https://github.com/rupal2k">
+    <img src="https://github-readme-streak-stats.herokuapp.com/?user=rupal2k&theme=dark&border=30363d&background=0d1117&stroke=30363d&ring=a3e635&fire=a3e635&currStreakNum=e6edf3&sideNums=e6edf3&currStreakLabel=a3e635&sideLabels=8b949e&dates=8b949e" width="100%" alt="GitHub Streak Stats">
+  </a>
+</td>
+</tr>
+<tr>
+<td colspan="2" align="center" valign="top">
+  <a href="https://github.com/rupal2k">
+    <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=rupal2k&layout=compact&theme=tokyonight&border_color=30363d&bg_color=0d1117&title_color=a3e635&text_color=c9d1d9&langs_count=6" width="60%" alt="Most Used Languages">
+  </a>
 </td>
 </tr>
 </table>
 
-<!-- Featured Repositories & Minimal Previews -->
-<table>
+<br>
+
+<details>
+<summary><b>🛡️ View Self-Hosted Vector Cards (Offline &amp; Ad-Block Resilient)</b></summary>
+<br />
+<p><i>Rendered directly by <code>scripts/cards.py</code> via GitHub Actions: stable, fast, and immune to third-party outages.</i></p>
+
+<table width="100%">
 <tr>
 <td width="50%" align="center" valign="top">
-
-<a href="https://github.com/rupal2k/aegis-ai">
-<picture>
-  <source media="(prefers-color-scheme: dark)"  srcset="assets/card-aegis-ai-dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="assets/card-aegis-ai-light.svg">
-  <img src="assets/card-aegis-ai-dark.svg" width="100%" alt="Aegis AI">
-</picture>
-</a>
-
-<p align="center">
-  <a href="https://www.python.org" target="_blank" rel="noreferrer"><img src="assets/icons/python.svg" width="34" height="34" alt="Python"></a>&nbsp;
-  <a href="https://fastapi.tiangolo.com" target="_blank" rel="noreferrer"><img src="assets/icons/fastapi.svg" width="34" height="34" alt="FastAPI"></a>&nbsp;
-  <a href="https://scikit-learn.org" target="_blank" rel="noreferrer"><img src="assets/icons/sklearn.svg" width="34" height="34" alt="Scikit-Learn"></a>&nbsp;
-  <a href="https://www.postgresql.org" target="_blank" rel="noreferrer"><img src="assets/icons/postgres.svg" width="34" height="34" alt="PostgreSQL"></a>&nbsp;
-  <a href="https://www.docker.com" target="_blank" rel="noreferrer"><img src="assets/icons/docker.svg" width="34" height="34" alt="Docker"></a>
-</p>
-
-<a href="https://github.com/rupal2k/aegis-ai">
-  <img src="assets/screenshots/aegis-preview.png" width="100%" alt="Aegis AI Dashboard Preview">
-</a>
-
-<p align="center"><sub><b>Aegis AI</b> · Health Risk Scoring & Underwriting Dashboard (<a href="https://huggingface.co/spaces/Rupa2k/aegis-ai">Live Demo ↗</a>)</sub></p>
-
+  <picture>
+    <source media="(prefers-color-scheme: dark)"  srcset="assets/card-stats-dark.svg">
+    <source media="(prefers-color-scheme: light)" srcset="assets/card-stats-light.svg">
+    <img src="assets/card-stats-dark.svg" width="100%" alt="GitHub statistics">
+  </picture>
 </td>
 <td width="50%" align="center" valign="top">
-
-<a href="https://github.com/rupal2k/pinet">
-<picture>
-  <source media="(prefers-color-scheme: dark)"  srcset="assets/card-pinet-dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="assets/card-pinet-light.svg">
-  <img src="assets/card-pinet-dark.svg" width="100%" alt="PINET">
-</picture>
-</a>
-
-<p align="center">
-  <a href="https://www.python.org" target="_blank" rel="noreferrer"><img src="assets/icons/python.svg" width="34" height="34" alt="Python"></a>&nbsp;
-  <a href="https://flask.palletsprojects.com" target="_blank" rel="noreferrer"><img src="assets/icons/flask.svg" width="34" height="34" alt="Flask"></a>&nbsp;
-  <a href="https://www.linux.org" target="_blank" rel="noreferrer"><img src="assets/icons/linux.svg" width="34" height="34" alt="Linux"></a>&nbsp;
-  <a href="https://www.gnu.org/software/bash" target="_blank" rel="noreferrer"><img src="assets/icons/bash.svg" width="34" height="34" alt="Bash"></a>&nbsp;
-  <a href="https://www.raspberrypi.com" target="_blank" rel="noreferrer"><img src="assets/icons/raspberrypi.svg" width="34" height="34" alt="Raspberry Pi"></a>
-</p>
-
-<a href="https://github.com/rupal2k/pinet">
-  <img src="assets/screenshots/pinet-preview.png" width="100%" alt="PINET Cyberdeck Interface Preview">
-</a>
-
-<p align="center"><sub><b>PINET</b> · Portable Cyber-deck OS & Edge Operations Interface</sub></p>
-
+  <picture>
+    <source media="(prefers-color-scheme: dark)"  srcset="assets/card-top-langs-dark.svg">
+    <source media="(prefers-color-scheme: light)" srcset="assets/card-top-langs-light.svg">
+    <img src="assets/card-top-langs-dark.svg" width="100%" alt="Most Used Languages">
+  </picture>
 </td>
 </tr>
 </table>
+</details>
 
 </div>
 
+<p align="right"><a href="#top">↑ Back to Top</a></p>
+
 ---
 
-<div align="center">
+<div id="technical-ecosystem"></div>
 
-## my perfect stack
+## ⚡ Technical Ecosystem & Toolchain
+
+<div align="center">
 
 <p align="center">
   <a href="https://www.python.org" target="_blank" rel="noreferrer"><img src="assets/icons/python.svg" width="42" height="42" alt="Python"></a>&nbsp;
@@ -152,11 +230,15 @@ I bridge the gap between enterprise clients, scalable SaaS architecture, and app
 
 </div>
 
+<p align="right"><a href="#top">↑ Back to Top</a></p>
+
 ---
 
-<div align="center">
+<div id="core-competencies"></div>
 
-## Core Competencies & Domain Expertise
+## 🎯 Core Competencies & Domain Expertise
+
+<div align="center">
 
 <table>
 <tr>
@@ -185,10 +267,12 @@ I bridge the gap between enterprise clients, scalable SaaS architecture, and app
 
 </div>
 
+<p align="right"><a href="#top">↑ Back to Top</a></p>
+
 ---
 
 <div align="center">
 
-<sub>` Build with love · @rupal2k `</sub>
+<sub>` Built with precision & passion · @rupal2k `</sub>
 
 </div>

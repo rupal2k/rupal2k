@@ -2,15 +2,14 @@ name: Charts and cards
 
 on:
   schedule:
-    - cron: "30 3 * * *"
+    - cron: "0 */6 * * *"
   workflow_dispatch:
   push:
     branches: [main]
     paths:
-      - "assets/skills.json"
-      - "assets/langmix.json"
-      - "assets/projects.json"
+      - "assets/**"
       - "scripts/**"
+      - "README.md"
       - ".github/workflows/charts.yml"
 
 permissions:
