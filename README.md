@@ -118,21 +118,25 @@ I bridge the gap between enterprise clients, scalable SaaS architecture, and app
 
 <div id="github-telemetry"></div>
 
-## 📊 GitHub Analytics & Real-Time Telemetry
+## 📊 GitHub Analytics & Dynamic Telemetry
 
 <div align="center">
 
 <table width="100%">
 <tr>
 <td width="50%" align="center" valign="top">
-  <a href="https://github.com/rupal2k">
-    <img src="https://github-readme-stats.vercel.app/api?username=rupal2k&show_icons=true&theme=tokyonight&border_color=30363d&bg_color=0d1117&title_color=a3e635&text_color=c9d1d9&icon_color=a3e635&include_all_commits=true&count_private=true" width="100%" alt="Rupal's GitHub Statistics">
-  </a>
+  <picture>
+    <source media="(prefers-color-scheme: dark)"  srcset="assets/card-stats-dark.svg">
+    <source media="(prefers-color-scheme: light)" srcset="assets/card-stats-light.svg">
+    <img src="assets/card-stats-dark.svg" width="100%" alt="GitHub statistics">
+  </picture>
 </td>
 <td width="50%" align="center" valign="top">
-  <a href="https://github.com/rupal2k">
-    <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=rupal2k&theme=tokyonight&border_color=30363d&bg_color=0d1117&title_color=a3e635&text_color=c9d1d9&card_width=467&langs_count=3" width="100%" alt="Most Used Languages">
-  </a>
+  <picture>
+    <source media="(prefers-color-scheme: dark)"  srcset="assets/card-top-langs-dark.svg">
+    <source media="(prefers-color-scheme: light)" srcset="assets/card-top-langs-light.svg">
+    <img src="assets/card-top-langs-dark.svg" width="100%" alt="Most Used Languages">
+  </picture>
 </td>
 </tr>
 </table>
