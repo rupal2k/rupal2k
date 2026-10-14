@@ -118,25 +118,29 @@ I bridge the gap between enterprise clients, scalable SaaS architecture, and app
 
 <div id="github-telemetry"></div>
 
-## 📊 GitHub Analytics & Dynamic Telemetry
+## 📊 GitHub Analytics & Real-Time Telemetry
 
 <div align="center">
 
 <table width="100%">
 <tr>
 <td width="50%" align="center" valign="top">
-  <picture>
-    <source media="(prefers-color-scheme: dark)"  srcset="assets/card-stats-dark.svg">
-    <source media="(prefers-color-scheme: light)" srcset="assets/card-stats-light.svg">
-    <img src="assets/card-stats-dark.svg" width="100%" alt="GitHub statistics">
-  </picture>
+  <a href="https://github.com/rupal2k">
+    <picture>
+      <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api?username=rupal2k&show_icons=true&hide_rank=true&custom_title=rupal2k&card_width=467&border_color=30363d&bg_color=0d1117&title_color=a3e635&text_color=c9d1d9&icon_color=a3e635&include_all_commits=true&count_private=true">
+      <source media="(prefers-color-scheme: light)" srcset="https://github-readme-stats.vercel.app/api?username=rupal2k&show_icons=true&hide_rank=true&custom_title=rupal2k&card_width=467&border_color=d0d7de&bg_color=ffffff&title_color=4D7C0F&text_color=1f2328&icon_color=4D7C0F&include_all_commits=true&count_private=true">
+      <img src="https://github-readme-stats.vercel.app/api?username=rupal2k&show_icons=true&hide_rank=true&custom_title=rupal2k&card_width=467&border_color=30363d&bg_color=0d1117&title_color=a3e635&text_color=c9d1d9&icon_color=a3e635&include_all_commits=true&count_private=true" width="100%" alt="rupal2k GitHub statistics">
+    </picture>
+  </a>
 </td>
 <td width="50%" align="center" valign="top">
-  <picture>
-    <source media="(prefers-color-scheme: dark)"  srcset="assets/card-top-langs-dark.svg">
-    <source media="(prefers-color-scheme: light)" srcset="assets/card-top-langs-light.svg">
-    <img src="assets/card-top-langs-dark.svg" width="100%" alt="Most Used Languages">
-  </picture>
+  <a href="https://github.com/rupal2k">
+    <picture>
+      <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api/top-langs/?username=rupal2k&layout=compact&card_width=467&border_color=30363d&bg_color=0d1117&title_color=a3e635&text_color=c9d1d9">
+      <source media="(prefers-color-scheme: light)" srcset="https://github-readme-stats.vercel.app/api/top-langs/?username=rupal2k&layout=compact&card_width=467&border_color=d0d7de&bg_color=ffffff&title_color=4D7C0F&text_color=1f2328">
+      <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=rupal2k&layout=compact&card_width=467&border_color=30363d&bg_color=0d1117&title_color=a3e635&text_color=c9d1d9" width="100%" alt="Most Used Languages">
+    </picture>
+  </a>
 </td>
 </tr>
 </table>
