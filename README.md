@@ -118,39 +118,9 @@ I bridge the gap between enterprise clients, scalable SaaS architecture, and app
 
 <div id="github-telemetry"></div>
 
-## 📊 GitHub Analytics & Real-Time Telemetry
+## 📊 GitHub Analytics & Telemetry
 
-<!-- Real-time dynamic GitHub stats that update automatically on every request -->
 <div align="center">
-
-<table width="100%">
-<tr>
-<td width="50%" align="center" valign="top">
-  <a href="https://github.com/rupal2k">
-    <img src="https://github-readme-stats.vercel.app/api?username=rupal2k&show_icons=true&theme=tokyonight&border_color=30363d&bg_color=0d1117&title_color=a3e635&text_color=c9d1d9&icon_color=a3e635&count_private=true" width="100%" alt="Rupal's GitHub Statistics">
-  </a>
-</td>
-<td width="50%" align="center" valign="top">
-  <a href="https://github.com/rupal2k">
-    <img src="https://github-readme-streak-stats.herokuapp.com/?user=rupal2k&theme=dark&border=30363d&background=0d1117&stroke=30363d&ring=a3e635&fire=a3e635&currStreakNum=e6edf3&sideNums=e6edf3&currStreakLabel=a3e635&sideLabels=8b949e&dates=8b949e" width="100%" alt="GitHub Streak Stats">
-  </a>
-</td>
-</tr>
-<tr>
-<td colspan="2" align="center" valign="top">
-  <a href="https://github.com/rupal2k">
-    <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=rupal2k&layout=compact&theme=tokyonight&border_color=30363d&bg_color=0d1117&title_color=a3e635&text_color=c9d1d9&langs_count=6" width="60%" alt="Most Used Languages">
-  </a>
-</td>
-</tr>
-</table>
-
-<br>
-
-<details>
-<summary><b>🛡️ View Self-Hosted Vector Cards (Offline &amp; Ad-Block Resilient)</b></summary>
-<br />
-<p><i>Rendered directly by <code>scripts/cards.py</code> via GitHub Actions: stable, fast, and immune to third-party outages.</i></p>
 
 <table width="100%">
 <tr>
@@ -170,7 +140,6 @@ I bridge the gap between enterprise clients, scalable SaaS architecture, and app
 </td>
 </tr>
 </table>
-</details>
 
 </div>
 
