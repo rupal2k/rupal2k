@@ -198,7 +198,12 @@ I bridge the gap between enterprise clients, scalable SaaS architecture, and app
   <a href="https://www.raspberrypi.com" target="_blank" rel="noreferrer"><img src="assets/icons/raspberrypi.svg" width="42" height="42" alt="Raspberry Pi"></a>&nbsp;
   <a href="https://www.postman.com" target="_blank" rel="noreferrer"><img src="assets/icons/postman.svg" width="42" height="42" alt="Postman"></a>&nbsp;
   <a href="https://www.jenkins.io" target="_blank" rel="noreferrer"><img src="assets/icons/jenkins.svg" width="42" height="42" alt="Jenkins"></a>&nbsp;
-  <a href="https://github.com/features/actions" target="_blank" rel="noreferrer"><img src="assets/icons/githubactions.svg" width="42" height="42" alt="GitHub Actions"></a>
+  <a href="https://github.com/features/actions" target="_blank" rel="noreferrer"><img src="assets/icons/githubactions.svg" width="42" height="42" alt="GitHub Actions"></a><br><br>
+  <a href="https://react.dev" target="_blank" rel="noreferrer"><img src="assets/icons/react.svg" width="42" height="42" alt="React"></a>&nbsp;
+  <a href="https://vite.dev" target="_blank" rel="noreferrer"><img src="assets/icons/vite.svg" width="42" height="42" alt="Vite"></a>&nbsp;
+  <a href="https://nodejs.org" target="_blank" rel="noreferrer"><img src="assets/icons/nodejs.svg" width="42" height="42" alt="Node.js"></a>&nbsp;
+  <a href="https://nginx.org" target="_blank" rel="noreferrer"><img src="assets/icons/nginx.svg" width="42" height="42" alt="nginx"></a>&nbsp;
+  <a href="https://developer.android.com" target="_blank" rel="noreferrer"><img src="assets/icons/androidstudio.svg" width="42" height="42" alt="Android"></a>
 </p>
 
 </div>
