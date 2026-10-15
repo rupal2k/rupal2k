@@ -109,6 +109,34 @@ I bridge the gap between enterprise clients, scalable SaaS architecture, and app
 
 </td>
 </tr>
+<tr>
+<td colspan="2" align="center" valign="top">
+
+<a href="https://github.com/rupal2k/openfit">
+<picture>
+  <source media="(prefers-color-scheme: dark)"  srcset="assets/card-openfit-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="assets/card-openfit-light.svg">
+  <img src="assets/card-openfit-dark.svg" width="50%" alt="OPENFIT">
+</picture>
+</a>
+
+<p align="center">
+  <a href="https://react.dev" target="_blank" rel="noreferrer"><img src="assets/icons/react.svg" width="34" height="34" alt="React"></a>&nbsp;
+  <a href="https://vite.dev" target="_blank" rel="noreferrer"><img src="assets/icons/vite.svg" width="34" height="34" alt="Vite"></a>&nbsp;
+  <a href="https://nodejs.org" target="_blank" rel="noreferrer"><img src="assets/icons/nodejs.svg" width="34" height="34" alt="Node.js"></a>&nbsp;
+  <a href="https://nginx.org" target="_blank" rel="noreferrer"><img src="assets/icons/nginx.svg" width="34" height="34" alt="nginx"></a>&nbsp;
+  <a href="https://www.docker.com" target="_blank" rel="noreferrer"><img src="assets/icons/docker.svg" width="34" height="34" alt="Docker"></a>&nbsp;
+  <a href="https://capacitorjs.com" target="_blank" rel="noreferrer"><img src="assets/icons/androidstudio.svg" width="34" height="34" alt="Android (Capacitor)"></a>
+</p>
+
+<a href="https://github.com/rupal2k/openfit">
+  <img src="assets/screenshots/openfit-preview.png" width="75%" alt="OPENFIT app screens: Home, Workout, My Meals, My Stats">
+</a>
+
+<p align="center"><sub><b>OPENFIT</b> · 🚧 <b>WIP</b> · Self-hosted Gym, Body-Weight & Nutrition Tracker</sub></p>
+
+</td>
+</tr>
 </table>
 
 </div>

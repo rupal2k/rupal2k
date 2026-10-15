@@ -8,6 +8,10 @@
     {
       "repo": "pinet",
       "description": "Modular edge computing cyber-deck and network operations station with Flask captive portal, e-ink telemetry dashboard, and systemd daemons."
+    },
+    {
+      "repo": "openfit",
+      "description": "WIP · Self-hosted training, body-weight and nutrition tracker: guided workouts with progressive overload, barcode food logging, passkey sync, PWA + Android."
     }
   ]
 }
