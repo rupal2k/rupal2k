@@ -130,10 +130,10 @@ I bridge the gap between enterprise clients, scalable SaaS architecture, and app
 </p>
 
 <a href="https://github.com/rupal2k/openfit">
-  <img src="assets/screenshots/openfit-preview.png" width="75%" alt="OPENFIT app screens: Home, Workout, My Meals, My Stats">
+  <img src="assets/screenshots/openfit-carousel.gif" width="340" alt="OPENFIT App Walkthrough Carousel" style="border-radius: 10px;">
 </a>
 
-<p align="center"><sub><b>OPENFIT</b> · 🚧 <b>WIP</b> · Self-hosted Gym, Body-Weight & Nutrition Tracker</sub></p>
+<p align="center"><sub><b>OPENFIT</b> · Self-hosted Gym, Body-Weight & Nutrition Tracker with On-Device AI Vision (<a href="https://github.com/rupal2k/openfit">Repo ↗</a> · <a href="https://github.com/rupal2k/openfit/releases/latest/download/OPENFIT-android.apk">Download APK ↗</a>)</sub></p>
 
 </td>
 </tr>

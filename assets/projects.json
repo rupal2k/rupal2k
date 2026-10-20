@@ -11,7 +11,7 @@
     },
     {
       "repo": "openfit",
-      "description": "WIP · Self-hosted training, body-weight and nutrition tracker: guided workouts with progressive overload, barcode food logging, passkey sync, PWA + Android."
+      "description": "Self-hosted training, body-weight and nutrition tracker with on-device AI vision: guided workouts, progressive overload, passkey sync, PWA + standalone Android."
     }
   ]
 }
