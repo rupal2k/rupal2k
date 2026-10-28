@@ -71,6 +71,7 @@
 </a>
 
 <p align="center">
+  <img src="https://img.shields.io/badge/Status-Work_in_Progress-eab308?style=flat-square" alt="Status: work in progress">&nbsp;
   <img src="https://img.shields.io/badge/Architecture-Offline--First-22c55e?style=flat-square" alt="Offline-First">&nbsp;
   <img src="https://img.shields.io/badge/Vision_AI-MobileNet_WASM-3b82f6?style=flat-square" alt="MobileNet WASM">&nbsp;
   <img src="https://img.shields.io/badge/Frontend-React_19_+_Vite-61dafb?style=flat-square&logo=react&logoColor=black" alt="React 19">&nbsp;
@@ -113,6 +114,7 @@
 </a>
 
 <p align="center">
+  <img src="https://img.shields.io/badge/Status-Work_in_Progress-eab308?style=flat-square" alt="Status: work in progress">&nbsp;
   <img src="https://img.shields.io/badge/ML-XGBoost_+_SHAP-f97316?style=flat-square" alt="XGBoost + SHAP">&nbsp;
   <img src="https://img.shields.io/badge/API-FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white" alt="FastAPI">&nbsp;
   <img src="https://img.shields.io/badge/Container-Docker-2496ed?style=flat-square&logo=docker&logoColor=white" alt="Docker">
