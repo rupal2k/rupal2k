@@ -62,10 +62,6 @@
 ## 🛠️ Featured Systems & Engineering
 
 <!-- OpenFit Spotlight Feature -->
-<table width="100%">
-<tr>
-<td align="center" valign="top">
-
 <a href="https://github.com/rupal2k/openfit">
 <picture>
   <source media="(prefers-color-scheme: dark)"  srcset="assets/card-openfit-dark.svg">
@@ -100,10 +96,6 @@
   <sub><b>OPENFIT</b> · Self-hosted Gym, Body-Weight & Nutrition Tracker with On-Device AI Vision</sub><br>
   <sub><a href="https://github.com/rupal2k/openfit"><b>Explore Repository ↗</b></a> &nbsp;•&nbsp; <a href="https://github.com/rupal2k/openfit/releases/latest/download/app-release.apk"><b>Download Signed APK ↗</b></a> &nbsp;•&nbsp; <a href="https://github.com/rupal2k/openfit/blob/main/docs/ARCHITECTURE.md"><b>Architecture Docs ↗</b></a></sub>
 </p>
-
-</td>
-</tr>
-</table>
 
 <br>
 
