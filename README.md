@@ -295,13 +295,13 @@
   <img src="https://img.shields.io/badge/Board-Raspberry_Pi_3B-c51a4a?style=flat-square&logo=raspberrypi&logoColor=white" alt="Raspberry Pi 3B">&nbsp;
   <img src="https://img.shields.io/badge/Drive-Pi_Motor_HAT-30363d?style=flat-square" alt="Pi Motor HAT">&nbsp;
   <img src="https://img.shields.io/badge/Sensor-HC--SR04_Ultrasonic-475569?style=flat-square" alt="HC-SR04 ultrasonic sensor">&nbsp;
-  <img src="https://img.shields.io/badge/Chassis-4x4_Rock_Crawler-22c55e?style=flat-square" alt="4x4 rock crawler chassis">
+  <img src="https://img.shields.io/badge/Chassis-4x4_Crawler_%2B_Tank-22c55e?style=flat-square" alt="4x4 rock crawler and tank chassis">
 </p>
 
-<img src="assets/screenshots/kyra-carousel.gif" width="340" alt="Kyra build photos: Raspberry Pi 3B on a 4x4 rock crawler with Pi Camera, HC-SR04 sensor and phone control" style="border-radius: 12px; border: 1px solid #30363d;">
+<img src="assets/screenshots/kyra-carousel.gif" width="340" alt="Kyra build photos: Raspberry Pi 3B on a 4x4 rock crawler with Pi Camera, HC-SR04 sensor and phone control, plus the tracked tank version" style="border-radius: 12px; border: 1px solid #30363d;">
 
 <p align="center">
-  <sub>A rock-crawler rover rebuilt around a Raspberry Pi 3B: live camera, lights and motors all controlled over the network,<br>driven through a Pi Motor HAT, with an HC-SR04 ultrasonic sensor for range sensing in reverse.</sub>
+  <sub>A rock-crawler rover rebuilt around a Raspberry Pi 3B: live camera, lights and motors all controlled over the network,<br>driven through a Pi Motor HAT, with an HC-SR04 ultrasonic sensor for range sensing in reverse.<br>Built in two versions: the 4x4 rock crawler and a tracked tank.</sub>
 </p>
 
 </td>
