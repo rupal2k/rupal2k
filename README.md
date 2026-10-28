@@ -301,7 +301,7 @@
 <img src="assets/screenshots/kyra-carousel.gif" width="340" alt="Kyra build photos: Raspberry Pi 3B on a 4x4 rock crawler with Pi Camera, HC-SR04 sensor and phone control" style="border-radius: 12px; border: 1px solid #30363d;">
 
 <p align="center">
-  <sub>A rock-crawler rover rebuilt around a Raspberry Pi 3B: live camera, lights and motors all controlled over the network,<br>driven through a Pi Motor HAT, with an HC-SR04 ultrasonic sensor for range sensing up front.</sub>
+  <sub>A rock-crawler rover rebuilt around a Raspberry Pi 3B: live camera, lights and motors all controlled over the network,<br>driven through a Pi Motor HAT, with an HC-SR04 ultrasonic sensor for range sensing in reverse.</sub>
 </p>
 
 </td>
