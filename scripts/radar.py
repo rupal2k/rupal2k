@@ -41,7 +41,8 @@ THEMES = {
 }
 
 FONT = "ui-sans-serif,-apple-system,Segoe UI,Helvetica,Arial,sans-serif"
-LBL, VAL, TTL = 13, 11, 15
+# Sized so labels still read at ~12px when GitHub shrinks the chart into a half-width table cell (~396px).
+LBL, VAL, TTL = 24, 21, 27
 
 
 def ring(radius, n, start=-math.pi / 2):
@@ -102,7 +103,7 @@ def render(title, axes, theme: str, size: int, rings: int, show_values: bool,
         miny, maxy = min(miny, y0), max(maxy, y1)
 
     pad = 10
-    title_h = TTL + 14 if title else 0
+    title_h = TTL + 22 if title else 0
     W = round((maxx - minx) + 2 * pad)
     H = round((maxy - miny) + 2 * pad + title_h)
     ox, oy = -minx + pad, -miny + pad + title_h
@@ -184,7 +185,7 @@ def main(argv=None):
     p.add_argument("--data", type=Path, default=Path("assets/skills.json"))
     p.add_argument("-o", "--out", type=Path, default=Path("assets/radar"))
     p.add_argument("--title", help="override the chart title")
-    p.add_argument("--size", type=int, default=420)
+    p.add_argument("--size", type=int, default=260)
     p.add_argument("--rings", type=int, default=4)
     p.add_argument("--values", action="store_true")
     p.add_argument("--no-animate", dest="animate", action="store_false")

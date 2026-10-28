@@ -28,9 +28,9 @@
 <p align="center">
   <a href="#about-me"><b>About Me</b></a> &nbsp;•&nbsp;
   <a href="#featured-systems"><b>Featured Systems</b></a> &nbsp;•&nbsp;
+  <a href="#college-projects"><b>College Projects</b></a> &nbsp;•&nbsp;
   <a href="#technical-stack"><b>Technical Stack</b></a> &nbsp;•&nbsp;
   <a href="#core-competencies"><b>Core Competencies</b></a> &nbsp;•&nbsp;
-  <a href="#college-projects"><b>College Projects</b></a> &nbsp;•&nbsp;
   <a href="#github-telemetry"><b>GitHub Telemetry</b></a>
 </p>
 
@@ -42,16 +42,9 @@
 
 ## 📌 About Me
 
-> **Client Success & Technical Operations Lead** based in Kolkata, India 🇮🇳  
+> **Client Success & Technical Operations Lead** at [Vantage Circle](https://www.vantagecircle.com) · Kolkata, India 🇮🇳  
 > Bridging enterprise client operations, scalable SaaS delivery, and applied automation — owning rollouts end-to-end from discovery and API integrations to go-live and operational telemetry.
 
-<br>
-
-| Focus Area | Enterprise Experience | Education & Credentials | Location |
-| :--- | :--- | :--- | :--- |
-| **Enterprise SaaS Delivery** | Technical Operations & Client Success at [Vantage Circle](https://www.vantagecircle.com) | **IIM Lucknow** (Executive AI for Business)<br>**CSM®** (Certified Scrum Master) | Kolkata, India 🇮🇳 |
-
-<br>
 
 - 🏢 **Enterprise SaaS Onboarding**: Managing end-to-end platform deployments across the Americas, Europe, and India for Fortune 500 and enterprise accounts (SAP ecosystem, global business services majors, US energy clients).
 - 🎓 **Applied AI for Business Operations**: Executive Program at **IIM Lucknow**, focusing on applying Generative AI and automated agent workflows to streamline client enablement and operations.
@@ -60,8 +53,6 @@
 - 🤖 **Pragmatic Automation & Tooling**: Developing Python & edge utilities (FastAPI, Docker, Linux systemd) that convert manual support friction into deterministic pipelines.
 - 📜 **Certifications**: **Certified Scrum Master (CSM®)** · Google IT Support Professional.
 - 💬 Open to conversations around **enterprise SaaS onboarding, workflow automation, and pragmatic AI applications**.
-
-<p align="right"><a href="#top">↑ Back to Top</a></p>
 
 ---
 
@@ -192,7 +183,30 @@
 
 </div>
 
-<p align="right"><a href="#top">↑ Back to Top</a></p>
+---
+
+<div id="college-projects"></div>
+
+## 🎓 College Projects
+
+<div align="center">
+
+<p align="center"><b>Kyra</b> · Raspberry Pi Unmanned Ground Vehicle · 2016</p>
+
+<p align="center">
+  <img src="https://img.shields.io/badge/Board-Raspberry_Pi_3B-c51a4a?style=flat-square&logo=raspberrypi&logoColor=white" alt="Raspberry Pi 3B">&nbsp;
+  <img src="https://img.shields.io/badge/Drive-Pi_Motor_HAT-30363d?style=flat-square" alt="Pi Motor HAT">&nbsp;
+  <img src="https://img.shields.io/badge/Sensor-HC--SR04_Ultrasonic-475569?style=flat-square" alt="HC-SR04 ultrasonic sensor">&nbsp;
+  <img src="https://img.shields.io/badge/Chassis-4x4_Crawler_%2B_Tank-22c55e?style=flat-square" alt="4x4 rock crawler and tank chassis">
+</p>
+
+<img src="assets/screenshots/kyra-carousel.gif" width="340" alt="Kyra build photos: Raspberry Pi 3B on a 4x4 rock crawler with Pi Camera, HC-SR04 sensor and phone control, plus the tracked tank version" style="border-radius: 12px; border: 1px solid #30363d;">
+
+<p align="center">
+  <sub>A rock-crawler rover rebuilt around a Raspberry Pi 3B: live camera, lights and motors all controlled over the network, driven through a Pi Motor HAT, with an HC-SR04 ultrasonic sensor for range sensing in reverse.<br>Built in two versions: the 4x4 rock crawler and a tracked tank.</sub>
+</p>
+
+</div>
 
 ---
 
@@ -210,31 +224,7 @@
 | **Cloud, DevOps & Systems** | `Linux (Debian / Arch)` · `Docker` · `Jenkins CI/CD` · `GitHub Actions` · `Nginx` |
 | **Databases & Edge Systems** | `PostgreSQL` · `SQLite / IndexedDB` · `Raspberry Pi (Hardware I2C/SPI)` · `Scikit-Learn` |
 
-<br>
-
-<p align="center">
-  <a href="https://www.python.org" target="_blank" rel="noreferrer"><img src="assets/icons/python.svg" width="40" height="40" alt="Python"></a>&nbsp;&nbsp;
-  <a href="https://fastapi.tiangolo.com" target="_blank" rel="noreferrer"><img src="assets/icons/fastapi.svg" width="40" height="40" alt="FastAPI"></a>&nbsp;&nbsp;
-  <a href="https://flask.palletsprojects.com" target="_blank" rel="noreferrer"><img src="assets/icons/flask.svg" width="40" height="40" alt="Flask"></a>&nbsp;&nbsp;
-  <a href="https://scikit-learn.org" target="_blank" rel="noreferrer"><img src="assets/icons/sklearn.svg" width="40" height="40" alt="Scikit-Learn"></a>&nbsp;&nbsp;
-  <a href="https://www.postgresql.org" target="_blank" rel="noreferrer"><img src="assets/icons/postgres.svg" width="40" height="40" alt="PostgreSQL"></a>&nbsp;&nbsp;
-  <a href="https://www.docker.com" target="_blank" rel="noreferrer"><img src="assets/icons/docker.svg" width="40" height="40" alt="Docker"></a><br><br>
-  <a href="https://www.linux.org" target="_blank" rel="noreferrer"><img src="assets/icons/linux.svg" width="40" height="40" alt="Linux"></a>&nbsp;&nbsp;
-  <a href="https://www.gnu.org/software/bash" target="_blank" rel="noreferrer"><img src="assets/icons/bash.svg" width="40" height="40" alt="Bash"></a>&nbsp;&nbsp;
-  <a href="https://www.raspberrypi.com" target="_blank" rel="noreferrer"><img src="assets/icons/raspberrypi.svg" width="40" height="40" alt="Raspberry Pi"></a>&nbsp;&nbsp;
-  <a href="https://www.postman.com" target="_blank" rel="noreferrer"><img src="assets/icons/postman.svg" width="40" height="40" alt="Postman"></a>&nbsp;&nbsp;
-  <a href="https://www.jenkins.io" target="_blank" rel="noreferrer"><img src="assets/icons/jenkins.svg" width="40" height="40" alt="Jenkins"></a>&nbsp;&nbsp;
-  <a href="https://github.com/features/actions" target="_blank" rel="noreferrer"><img src="assets/icons/githubactions.svg" width="40" height="40" alt="GitHub Actions"></a><br><br>
-  <a href="https://react.dev" target="_blank" rel="noreferrer"><img src="assets/icons/react.svg" width="40" height="40" alt="React"></a>&nbsp;&nbsp;
-  <a href="https://vite.dev" target="_blank" rel="noreferrer"><img src="assets/icons/vite.svg" width="40" height="40" alt="Vite"></a>&nbsp;&nbsp;
-  <a href="https://nodejs.org" target="_blank" rel="noreferrer"><img src="assets/icons/nodejs.svg" width="40" height="40" alt="Node.js"></a>&nbsp;&nbsp;
-  <a href="https://nginx.org" target="_blank" rel="noreferrer"><img src="assets/icons/nginx.svg" width="40" height="40" alt="nginx"></a>&nbsp;&nbsp;
-  <a href="https://developer.android.com" target="_blank" rel="noreferrer"><img src="assets/icons/androidstudio.svg" width="40" height="40" alt="Android"></a>
-</p>
-
 </div>
-
-<p align="right"><a href="#top">↑ Back to Top</a></p>
 
 ---
 
@@ -275,43 +265,6 @@
 
 </div>
 
-<p align="right"><a href="#top">↑ Back to Top</a></p>
-
----
-
-<div id="college-projects"></div>
-
-## 🎓 College Projects
-
-<div align="center">
-
-<table width="100%">
-<tr>
-<td align="center" valign="top">
-
-<p align="center"><b>Kyra</b> · Raspberry Pi Unmanned Ground Vehicle · 2016</p>
-
-<p align="center">
-  <img src="https://img.shields.io/badge/Board-Raspberry_Pi_3B-c51a4a?style=flat-square&logo=raspberrypi&logoColor=white" alt="Raspberry Pi 3B">&nbsp;
-  <img src="https://img.shields.io/badge/Drive-Pi_Motor_HAT-30363d?style=flat-square" alt="Pi Motor HAT">&nbsp;
-  <img src="https://img.shields.io/badge/Sensor-HC--SR04_Ultrasonic-475569?style=flat-square" alt="HC-SR04 ultrasonic sensor">&nbsp;
-  <img src="https://img.shields.io/badge/Chassis-4x4_Crawler_%2B_Tank-22c55e?style=flat-square" alt="4x4 rock crawler and tank chassis">
-</p>
-
-<img src="assets/screenshots/kyra-carousel.gif" width="340" alt="Kyra build photos: Raspberry Pi 3B on a 4x4 rock crawler with Pi Camera, HC-SR04 sensor and phone control, plus the tracked tank version" style="border-radius: 12px; border: 1px solid #30363d;">
-
-<p align="center">
-  <sub>A rock-crawler rover rebuilt around a Raspberry Pi 3B: live camera, lights and motors all controlled over the network,<br>driven through a Pi Motor HAT, with an HC-SR04 ultrasonic sensor for range sensing in reverse.<br>Built in two versions: the 4x4 rock crawler and a tracked tank.</sub>
-</p>
-
-</td>
-</tr>
-</table>
-
-</div>
-
-<p align="right"><a href="#top">↑ Back to Top</a></p>
-
 ---
 
 <div id="github-telemetry"></div>
@@ -341,8 +294,6 @@
 
 </div>
 
-<p align="right"><a href="#top">↑ Back to Top</a></p>
-
 ---
 
 <div align="center">
@@ -350,3 +301,5 @@
 <sub><b>Rupal Das</b> · Enterprise Technical Operations, Client Success & Applied AI Systems · <a href="https://github.com/rupal2k">@rupal2k</a></sub>
 
 </div>
+
+<p align="right"><a href="#top">↑ Back to Top</a></p>
