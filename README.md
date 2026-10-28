@@ -30,6 +30,7 @@
   <a href="#featured-systems"><b>Featured Systems</b></a> &nbsp;•&nbsp;
   <a href="#technical-stack"><b>Technical Stack</b></a> &nbsp;•&nbsp;
   <a href="#core-competencies"><b>Core Competencies</b></a> &nbsp;•&nbsp;
+  <a href="#college-projects"><b>College Projects</b></a> &nbsp;•&nbsp;
   <a href="#github-telemetry"><b>GitHub Telemetry</b></a>
 </p>
 
@@ -267,6 +268,41 @@
 </picture>
 
 <p align="center"><sub><b>Technical Architecture & Systems Tooling</b></sub></p>
+
+</td>
+</tr>
+</table>
+
+</div>
+
+<p align="right"><a href="#top">↑ Back to Top</a></p>
+
+---
+
+<div id="college-projects"></div>
+
+## 🎓 College Projects
+
+<div align="center">
+
+<table width="100%">
+<tr>
+<td align="center" valign="top">
+
+<p align="center"><b>PI UGV</b> · Raspberry Pi Unmanned Ground Vehicle · 2016</p>
+
+<p align="center">
+  <img src="https://img.shields.io/badge/Board-Raspberry_Pi_3B-c51a4a?style=flat-square&logo=raspberrypi&logoColor=white" alt="Raspberry Pi 3B">&nbsp;
+  <img src="https://img.shields.io/badge/Drive-Pi_Motor_HAT-30363d?style=flat-square" alt="Pi Motor HAT">&nbsp;
+  <img src="https://img.shields.io/badge/Sensor-HC--SR04_Ultrasonic-475569?style=flat-square" alt="HC-SR04 ultrasonic sensor">&nbsp;
+  <img src="https://img.shields.io/badge/Chassis-4x4_Rock_Crawler-22c55e?style=flat-square" alt="4x4 rock crawler chassis">
+</p>
+
+<img src="assets/screenshots/pi-ugv-carousel.gif" width="340" alt="PI UGV build photos: Raspberry Pi 3B on a 4x4 rock crawler with Pi Camera, HC-SR04 sensor and phone control" style="border-radius: 12px; border: 1px solid #30363d;">
+
+<p align="center">
+  <sub>A rock-crawler rover rebuilt around a Raspberry Pi 3B: live camera, lights and motors all controlled over the network,<br>driven through a Pi Motor HAT, with an HC-SR04 ultrasonic sensor for range sensing up front.</sub>
+</p>
 
 </td>
 </tr>
