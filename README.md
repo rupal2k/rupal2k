@@ -87,7 +87,8 @@
   <img src="https://img.shields.io/badge/Vision_AI-MobileNet_WASM-3b82f6?style=flat-square" alt="MobileNet WASM">&nbsp;
   <img src="https://img.shields.io/badge/Frontend-React_19_+_Vite-61dafb?style=flat-square&logo=react&logoColor=black" alt="React 19">&nbsp;
   <img src="https://img.shields.io/badge/Mobile-Capacitor_Android-3880ff?style=flat-square&logo=android&logoColor=white" alt="Android">&nbsp;
-  <img src="https://img.shields.io/badge/Privacy-Zero_Cloud_Dependencies-a3e635?style=flat-square" alt="Privacy">
+  <img src="https://img.shields.io/badge/Auth-WebAuthn_Passkeys-f59e0b?style=flat-square" alt="Passkey auth">&nbsp;
+  <img src="https://img.shields.io/badge/Privacy-Self--Hosted_Data-a3e635?style=flat-square" alt="Self-hosted data">
 </p>
 
 <p align="center">
@@ -105,7 +106,7 @@
 
 <p align="center">
   <sub><b>OPENFIT</b> · Self-hosted Gym, Body-Weight & Nutrition Tracker with On-Device AI Vision</sub><br>
-  <sub><a href="https://github.com/rupal2k/openfit"><b>Explore Repository ↗</b></a> &nbsp;•&nbsp; <a href="https://github.com/rupal2k/openfit/releases/latest/download/OPENFIT-android.apk"><b>Download Signed APK (v1.3.3) ↗</b></a> &nbsp;•&nbsp; <a href="https://github.com/rupal2k/openfit/blob/main/docs/ARCHITECTURE.md"><b>Architecture Docs ↗</b></a></sub>
+  <sub><a href="https://github.com/rupal2k/openfit"><b>Explore Repository ↗</b></a> &nbsp;•&nbsp; <a href="https://github.com/rupal2k/openfit/releases/latest/download/app-release.apk"><b>Download Signed APK ↗</b></a> &nbsp;•&nbsp; <a href="https://github.com/rupal2k/openfit/blob/main/docs/ARCHITECTURE.md"><b>Architecture Docs ↗</b></a></sub>
 </p>
 
 </td>
@@ -142,7 +143,7 @@
 </p>
 
 <a href="https://github.com/rupal2k/aegis-ai">
-  <img src="assets/screenshots/aegis-preview.png" width="100%" alt="Aegis AI Dashboard Preview" style="border-radius: 8px; border: 1px solid #30363d;">
+  <img src="assets/screenshots/aegis-carousel.gif" width="100%" alt="Aegis AI walkthrough: underwriter workbench, SHAP risk attribution, HR wellness portal" style="border-radius: 8px; border: 1px solid #30363d;">
 </a>
 
 <p align="center">
@@ -176,7 +177,7 @@
 </p>
 
 <a href="https://github.com/rupal2k/pinet">
-  <img src="assets/screenshots/pinet-preview.png" width="100%" alt="PINET Cyberdeck Interface Preview" style="border-radius: 8px; border: 1px solid #30363d;">
+  <img src="assets/screenshots/pinet-carousel.gif" width="100%" alt="PINET walkthrough: desktop, media centre, Spotifast, Winamp player, browser, e-ink dashboard" style="border-radius: 8px; border: 1px solid #30363d;">
 </a>
 
 <p align="center">
