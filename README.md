@@ -163,6 +163,10 @@
 </p>
 
 <a href="https://github.com/rupal2k/pinet">
+  <img src="assets/screenshots/pinet-device.jpg" width="100%" alt="PINET hardware: 7-inch touchscreen and keyboard on the front, 2.13-inch e-paper telemetry panel on the back" style="border-radius: 8px; border: 1px solid #30363d;">
+</a>
+
+<a href="https://github.com/rupal2k/pinet">
   <img src="assets/screenshots/pinet-carousel.gif" width="100%" alt="PINET walkthrough: desktop, media centre, Spotifast, Winamp player, browser, e-ink dashboard" style="border-radius: 8px; border: 1px solid #30363d;">
 </a>
 
