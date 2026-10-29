@@ -61,41 +61,25 @@
 
 ## 🛠️ Featured Systems & Engineering
 
-<!-- OpenFit Spotlight Feature -->
-<a href="https://github.com/rupal2k/openfit">
-<picture>
-  <source media="(prefers-color-scheme: dark)"  srcset="assets/card-openfit-dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="assets/card-openfit-light.svg">
-  <img src="assets/card-openfit-dark.svg" width="60%" alt="OPENFIT">
-</picture>
+<!-- Vantage Fit Welcome Site (company project, private repository) -->
+<p align="center"><b>Vantage Fit Welcome Site</b> · Onboarding Guide for the Vantage Fit App · Vantage Circle</p>
+
+<p align="center">
+  <img src="https://img.shields.io/badge/Status-Live-22c55e?style=flat-square" alt="Status: live">&nbsp;
+  <img src="https://img.shields.io/badge/Hosting-Cloudflare_Workers-f38020?style=flat-square&logo=cloudflare&logoColor=white" alt="Cloudflare Workers">&nbsp;
+  <img src="https://img.shields.io/badge/Frontend-React_+_Vite-61dafb?style=flat-square&logo=react&logoColor=black" alt="React + Vite">&nbsp;
+  <img src="https://img.shields.io/badge/Accessibility-WCAG_2.1_AA-3b82f6?style=flat-square" alt="WCAG 2.1 AA">&nbsp;
+  <img src="https://img.shields.io/badge/Security-Strict_CSP_+_HSTS-a3e635?style=flat-square" alt="Strict CSP and HSTS">
+</p>
+
+<a href="https://vfitwelcome.rupal-das.workers.dev/">
+  <img src="assets/screenshots/vfitwelcome.webp" width="70%" alt="Vantage Fit Welcome Site: hero section with the Vantage Fit logo, Get Started button and app screenshots" style="border-radius: 12px; border: 1px solid #30363d;">
 </a>
 
 <p align="center">
-  <img src="https://img.shields.io/badge/Status-Work_in_Progress-eab308?style=flat-square" alt="Status: work in progress">&nbsp;
-  <img src="https://img.shields.io/badge/Architecture-Offline--First-22c55e?style=flat-square" alt="Offline-First">&nbsp;
-  <img src="https://img.shields.io/badge/Vision_AI-MobileNet_WASM-3b82f6?style=flat-square" alt="MobileNet WASM">&nbsp;
-  <img src="https://img.shields.io/badge/Frontend-React_19_+_Vite-61dafb?style=flat-square&logo=react&logoColor=black" alt="React 19">&nbsp;
-  <img src="https://img.shields.io/badge/Mobile-Capacitor_Android-3880ff?style=flat-square&logo=android&logoColor=white" alt="Android">&nbsp;
-  <img src="https://img.shields.io/badge/Auth-WebAuthn_Passkeys-f59e0b?style=flat-square" alt="Passkey auth">&nbsp;
-  <img src="https://img.shields.io/badge/Privacy-Self--Hosted_Data-a3e635?style=flat-square" alt="Self-hosted data">
-</p>
-
-<p align="center">
-  <a href="https://react.dev" target="_blank" rel="noreferrer"><img src="assets/icons/react.svg" width="34" height="34" alt="React"></a>&nbsp;
-  <a href="https://vite.dev" target="_blank" rel="noreferrer"><img src="assets/icons/vite.svg" width="34" height="34" alt="Vite"></a>&nbsp;
-  <a href="https://nodejs.org" target="_blank" rel="noreferrer"><img src="assets/icons/nodejs.svg" width="34" height="34" alt="Node.js"></a>&nbsp;
-  <a href="https://nginx.org" target="_blank" rel="noreferrer"><img src="assets/icons/nginx.svg" width="34" height="34" alt="nginx"></a>&nbsp;
-  <a href="https://www.docker.com" target="_blank" rel="noreferrer"><img src="assets/icons/docker.svg" width="34" height="34" alt="Docker"></a>&nbsp;
-  <a href="https://capacitorjs.com" target="_blank" rel="noreferrer"><img src="assets/icons/androidstudio.svg" width="34" height="34" alt="Android (Capacitor)"></a>
-</p>
-
-<a href="https://github.com/rupal2k/openfit">
-  <img src="assets/screenshots/openfit-carousel.gif" width="340" alt="OPENFIT App Walkthrough Carousel" style="border-radius: 12px; border: 1px solid #30363d;">
-</a>
-
-<p align="center">
-  <sub><b>OPENFIT</b> · Self-hosted Gym, Body-Weight & Nutrition Tracker with On-Device AI Vision</sub><br>
-  <sub><a href="https://github.com/rupal2k/openfit"><b>Explore Repository ↗</b></a> &nbsp;•&nbsp; <a href="https://github.com/rupal2k/openfit/releases/latest/download/app-release.apk"><b>Download Signed APK ↗</b></a> &nbsp;•&nbsp; <a href="https://github.com/rupal2k/openfit/blob/main/docs/ARCHITECTURE.md"><b>Architecture Docs ↗</b></a></sub>
+  <sub>The guide that opens from the <b>Click to view guide</b> banner in each organisation's branded Vantage Fit app. New users install the app, connect a device, learn each task type and join a team, then return to the app.<br>
+  I moved the site from Lovable to Cloudflare with the same behaviour, then made it production-ready: WCAG 2.1 AA contrast, about 95% lighter feature images, a strict security policy, no third-party scripts, and zero console errors. One deployment serves every client's branded app.</sub><br>
+  <sub><a href="https://vfitwelcome.rupal-das.workers.dev/"><b>Live Site ↗</b></a> &nbsp;•&nbsp; Private repository</sub>
 </p>
 
 <br>
@@ -181,25 +165,41 @@
 
 <br>
 
-<!-- Vantage Fit Welcome Site (company project, private repository) -->
-<p align="center"><b>Vantage Fit Welcome Site</b> · Onboarding Guide for the Vantage Fit App · Vantage Circle</p>
-
-<p align="center">
-  <img src="https://img.shields.io/badge/Status-Live-22c55e?style=flat-square" alt="Status: live">&nbsp;
-  <img src="https://img.shields.io/badge/Hosting-Cloudflare_Workers-f38020?style=flat-square&logo=cloudflare&logoColor=white" alt="Cloudflare Workers">&nbsp;
-  <img src="https://img.shields.io/badge/Frontend-React_+_Vite-61dafb?style=flat-square&logo=react&logoColor=black" alt="React + Vite">&nbsp;
-  <img src="https://img.shields.io/badge/Accessibility-WCAG_2.1_AA-3b82f6?style=flat-square" alt="WCAG 2.1 AA">&nbsp;
-  <img src="https://img.shields.io/badge/Security-Strict_CSP_+_HSTS-a3e635?style=flat-square" alt="Strict CSP and HSTS">
-</p>
-
-<a href="https://vfitwelcome.rupal-das.workers.dev/">
-  <img src="assets/screenshots/vfitwelcome.webp" width="70%" alt="Vantage Fit Welcome Site: hero section with the Vantage Fit logo, Get Started button and app screenshots" style="border-radius: 12px; border: 1px solid #30363d;">
+<!-- OpenFit Spotlight Feature -->
+<a href="https://github.com/rupal2k/openfit">
+<picture>
+  <source media="(prefers-color-scheme: dark)"  srcset="assets/card-openfit-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="assets/card-openfit-light.svg">
+  <img src="assets/card-openfit-dark.svg" width="60%" alt="OPENFIT">
+</picture>
 </a>
 
 <p align="center">
-  <sub>The guide that opens from the <b>Click to view guide</b> banner in each organisation's branded Vantage Fit app. New users install the app, connect a device, learn each task type and join a team, then return to the app.<br>
-  I moved the site from Lovable to Cloudflare with the same behaviour, then made it production-ready: WCAG 2.1 AA contrast, about 95% lighter feature images, a strict security policy, no third-party scripts, and zero console errors. One deployment serves every client's branded app.</sub><br>
-  <sub><a href="https://vfitwelcome.rupal-das.workers.dev/"><b>Live Site ↗</b></a> &nbsp;•&nbsp; Private repository</sub>
+  <img src="https://img.shields.io/badge/Status-Work_in_Progress-eab308?style=flat-square" alt="Status: work in progress">&nbsp;
+  <img src="https://img.shields.io/badge/Architecture-Offline--First-22c55e?style=flat-square" alt="Offline-First">&nbsp;
+  <img src="https://img.shields.io/badge/Vision_AI-MobileNet_WASM-3b82f6?style=flat-square" alt="MobileNet WASM">&nbsp;
+  <img src="https://img.shields.io/badge/Frontend-React_19_+_Vite-61dafb?style=flat-square&logo=react&logoColor=black" alt="React 19">&nbsp;
+  <img src="https://img.shields.io/badge/Mobile-Capacitor_Android-3880ff?style=flat-square&logo=android&logoColor=white" alt="Android">&nbsp;
+  <img src="https://img.shields.io/badge/Auth-WebAuthn_Passkeys-f59e0b?style=flat-square" alt="Passkey auth">&nbsp;
+  <img src="https://img.shields.io/badge/Privacy-Self--Hosted_Data-a3e635?style=flat-square" alt="Self-hosted data">
+</p>
+
+<p align="center">
+  <a href="https://react.dev" target="_blank" rel="noreferrer"><img src="assets/icons/react.svg" width="34" height="34" alt="React"></a>&nbsp;
+  <a href="https://vite.dev" target="_blank" rel="noreferrer"><img src="assets/icons/vite.svg" width="34" height="34" alt="Vite"></a>&nbsp;
+  <a href="https://nodejs.org" target="_blank" rel="noreferrer"><img src="assets/icons/nodejs.svg" width="34" height="34" alt="Node.js"></a>&nbsp;
+  <a href="https://nginx.org" target="_blank" rel="noreferrer"><img src="assets/icons/nginx.svg" width="34" height="34" alt="nginx"></a>&nbsp;
+  <a href="https://www.docker.com" target="_blank" rel="noreferrer"><img src="assets/icons/docker.svg" width="34" height="34" alt="Docker"></a>&nbsp;
+  <a href="https://capacitorjs.com" target="_blank" rel="noreferrer"><img src="assets/icons/androidstudio.svg" width="34" height="34" alt="Android (Capacitor)"></a>
+</p>
+
+<a href="https://github.com/rupal2k/openfit">
+  <img src="assets/screenshots/openfit-carousel.gif" width="340" alt="OPENFIT App Walkthrough Carousel" style="border-radius: 12px; border: 1px solid #30363d;">
+</a>
+
+<p align="center">
+  <sub><b>OPENFIT</b> · Self-hosted Gym, Body-Weight & Nutrition Tracker with On-Device AI Vision</sub><br>
+  <sub><a href="https://github.com/rupal2k/openfit"><b>Explore Repository ↗</b></a> &nbsp;•&nbsp; <a href="https://github.com/rupal2k/openfit/releases/latest/download/app-release.apk"><b>Download Signed APK ↗</b></a> &nbsp;•&nbsp; <a href="https://github.com/rupal2k/openfit/blob/main/docs/ARCHITECTURE.md"><b>Architecture Docs ↗</b></a></sub>
 </p>
 
 </div>
