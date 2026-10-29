@@ -79,7 +79,7 @@
 <p align="center">
   <sub>The guide that opens from the <b>Click to view guide</b> banner in each organisation's branded Vantage Fit app. New users install the app, connect a device, learn each task type and join a team, then return to the app.<br>
   I moved the site from Lovable to Cloudflare with the same behaviour, then made it production-ready: WCAG 2.1 AA contrast, about 95% lighter feature images, a strict security policy, no third-party scripts, and zero console errors. One deployment serves every client's branded app.</sub><br>
-  <sub><a href="https://vfitwelcome.rupal-das.workers.dev/"><b>Live Site ↗</b></a> &nbsp;•&nbsp; Private repository</sub>
+  <sub><a href="https://vfitwelcome.rupal-das.workers.dev/"><b>Live Site (Cloudflare) ↗</b></a> &nbsp;•&nbsp; <a href="https://vfitwelcome.lovable.app/"><b>Original (Lovable) ↗</b></a> &nbsp;•&nbsp; Private repository</sub>
 </p>
 
 <br>
