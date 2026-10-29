@@ -87,7 +87,7 @@
 <!-- VFITADMIN Tool Kit (company project, private repository) -->
 <p align="center"><b>VFITADMIN Tool Kit</b> · Self-hosted Admin Workstation for Vantage Fit Site Administrators · Vantage Circle</p>
 
-<img src="assets/screenshots/vfitadmin.webp" width="70%" alt="VFITADMIN Tool Kit: SiteAdmin Launcher tab with the credentials form and authentication status panel" style="border-radius: 12px; border: 1px solid #30363d;">
+<img src="assets/screenshots/vfitadmin-launcher-blurred.webp" width="70%" alt="VFITADMIN Tool Kit: SiteAdmin Launcher tab with the credentials form and authentication status panel" style="border-radius: 12px; border: 1px solid #30363d;">
 
 <p align="center">
   <sub>Combines three daily admin tasks in one local dashboard. It opens Vantage Fit SiteAdmin in one click by signing in and capturing the session token, which removes the manual copying from DevTools. It also generates QR codes for check-in and campaign links, and resizes badges, avatars and banners to exact pixel and file-size limits entirely in the browser.<br>
