@@ -179,6 +179,29 @@
 </tr>
 </table>
 
+<br>
+
+<!-- Vantage Fit Welcome Site (company project, private repository) -->
+<p align="center"><b>Vantage Fit Welcome Site</b> · Onboarding Guide for the Vantage Fit App · Vantage Circle</p>
+
+<p align="center">
+  <img src="https://img.shields.io/badge/Status-Live-22c55e?style=flat-square" alt="Status: live">&nbsp;
+  <img src="https://img.shields.io/badge/Hosting-Cloudflare_Workers-f38020?style=flat-square&logo=cloudflare&logoColor=white" alt="Cloudflare Workers">&nbsp;
+  <img src="https://img.shields.io/badge/Frontend-React_+_Vite-61dafb?style=flat-square&logo=react&logoColor=black" alt="React + Vite">&nbsp;
+  <img src="https://img.shields.io/badge/Accessibility-WCAG_2.1_AA-3b82f6?style=flat-square" alt="WCAG 2.1 AA">&nbsp;
+  <img src="https://img.shields.io/badge/Security-Strict_CSP_+_HSTS-a3e635?style=flat-square" alt="Strict CSP and HSTS">
+</p>
+
+<a href="https://vfitwelcome.rupal-das.workers.dev/">
+  <img src="assets/screenshots/vfitwelcome.webp" width="70%" alt="Vantage Fit Welcome Site: hero section with the Vantage Fit logo, Get Started button and app screenshots" style="border-radius: 12px; border: 1px solid #30363d;">
+</a>
+
+<p align="center">
+  <sub>The guide that opens from the <b>Click to view guide</b> banner in each organisation's branded Vantage Fit app. New users install the app, connect a device, learn each task type and join a team, then return to the app.<br>
+  I moved the site from Lovable to Cloudflare with the same behaviour, then made it production-ready: WCAG 2.1 AA contrast, about 95% lighter feature images, a strict security policy, no third-party scripts, and zero console errors. One deployment serves every client's branded app.</sub><br>
+  <sub><a href="https://vfitwelcome.rupal-das.workers.dev/"><b>Live Site ↗</b></a> &nbsp;•&nbsp; Private repository</sub>
+</p>
+
 </div>
 
 ---
