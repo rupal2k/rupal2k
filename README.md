@@ -102,7 +102,7 @@
   <img src="https://img.shields.io/badge/Automation-Playwright-45ba4b?style=flat-square" alt="Playwright">&nbsp;
   <img src="https://img.shields.io/badge/Container-Docker-2496ed?style=flat-square&logo=docker&logoColor=white" alt="Docker">&nbsp;
   <img src="https://img.shields.io/badge/Security-Domain_Allowlist-a3e635?style=flat-square" alt="Domain allowlist">&nbsp;
-  <img src="https://img.shields.io/badge/Tests-17_passing-22c55e?style=flat-square&logo=pytest&logoColor=white" alt="17 tests passing">
+  <img src="https://img.shields.io/badge/Tests-17_passing-22c55e?style=flat-square" alt="17 tests passing">
 </p>
 
 <p align="center">
