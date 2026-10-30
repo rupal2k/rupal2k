@@ -18,7 +18,7 @@ ROWS = [
     ("Subject", "Rupal Das"),
     ("Role", "Client Success & Technical Operations Lead"),
     ("Company", "Vantage Circle"),
-    ("Origin", "Kolkata, India"),
+    ("Origin", "India"),
     ("Education", "IIM Lucknow (Executive) · WBUT"),
     ("Status", "Building + Scaling + Deploying"),
     ("ToolChain", "Docker · Jenkins · Postman · Linux"),

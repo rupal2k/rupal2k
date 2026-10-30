@@ -42,7 +42,7 @@
 
 ## 📌 About Me
 
-> **Client Success & Technical Operations Lead** at [Vantage Circle](https://www.vantagecircle.com) · Kolkata, India 🇮🇳  
+> **Client Success & Technical Operations Lead** at [Vantage Circle](https://www.vantagecircle.com) · India 🇮🇳  
 > Bridging enterprise client operations, scalable SaaS delivery, and applied automation — owning rollouts end-to-end from discovery and API integrations to go-live and operational telemetry.
 
 
@@ -188,7 +188,7 @@
 </a>
 
 <a href="https://github.com/rupal2k/pinet">
-  <img src="assets/screenshots/pinet-carousel.gif" width="100%" alt="PINET walkthrough: desktop, media centre, Spotifast, Winamp player, browser, e-ink dashboard" style="border-radius: 8px; border: 1px solid #30363d;">
+  <img src="assets/screenshots/pinet-carousel-redacted.gif" width="100%" alt="PINET walkthrough: desktop, media centre, Spotifast, Winamp player, browser, e-ink dashboard" style="border-radius: 8px; border: 1px solid #30363d;">
 </a>
 
 <p align="center">
