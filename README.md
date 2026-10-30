@@ -72,6 +72,14 @@
   <img src="https://img.shields.io/badge/Security-Strict_CSP_+_HSTS-a3e635?style=flat-square" alt="Strict CSP and HSTS">
 </p>
 
+<p align="center">
+  <a href="https://react.dev" target="_blank" rel="noreferrer"><img src="assets/icons/react.svg" width="34" height="34" alt="React"></a>&nbsp;
+  <a href="https://vite.dev" target="_blank" rel="noreferrer"><img src="assets/icons/vite.svg" width="34" height="34" alt="Vite"></a>&nbsp;
+  <a href="https://www.typescriptlang.org" target="_blank" rel="noreferrer"><img src="assets/icons/typescript.svg" width="34" height="34" alt="TypeScript"></a>&nbsp;
+  <a href="https://tailwindcss.com" target="_blank" rel="noreferrer"><img src="assets/icons/tailwindcss.svg" width="34" height="34" alt="Tailwind CSS"></a>&nbsp;
+  <a href="https://workers.cloudflare.com" target="_blank" rel="noreferrer"><img src="assets/icons/cloudflare.svg" width="34" height="34" alt="Cloudflare Workers"></a>
+</p>
+
 <a href="https://vfitwelcome.rupal-das.workers.dev/">
   <img src="assets/screenshots/vfitwelcome.webp" width="70%" alt="Vantage Fit Welcome Site: hero section with the Vantage Fit logo, Get Started button and app screenshots" style="border-radius: 12px; border: 1px solid #30363d;">
 </a>
@@ -86,6 +94,23 @@
 
 <!-- VFITADMIN Tool Kit (company project, private repository) -->
 <p align="center"><b>VFITADMIN Tool Kit</b> · Self-hosted Admin Workstation for Vantage Fit Site Administrators · Vantage Circle</p>
+
+<p align="center">
+  <img src="https://img.shields.io/badge/Type-Internal_Tool-64748b?style=flat-square" alt="Type: internal tool">&nbsp;
+  <img src="https://img.shields.io/badge/Version-1.3.0-6366f1?style=flat-square" alt="Version 1.3.0">&nbsp;
+  <img src="https://img.shields.io/badge/API-FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white" alt="FastAPI">&nbsp;
+  <img src="https://img.shields.io/badge/Automation-Playwright-45ba4b?style=flat-square" alt="Playwright">&nbsp;
+  <img src="https://img.shields.io/badge/Container-Docker-2496ed?style=flat-square&logo=docker&logoColor=white" alt="Docker">&nbsp;
+  <img src="https://img.shields.io/badge/Security-Domain_Allowlist-a3e635?style=flat-square" alt="Domain allowlist">&nbsp;
+  <img src="https://img.shields.io/badge/Tests-17_passing-22c55e?style=flat-square&logo=pytest&logoColor=white" alt="17 tests passing">
+</p>
+
+<p align="center">
+  <a href="https://www.python.org" target="_blank" rel="noreferrer"><img src="assets/icons/python.svg" width="34" height="34" alt="Python"></a>&nbsp;
+  <a href="https://fastapi.tiangolo.com" target="_blank" rel="noreferrer"><img src="assets/icons/fastapi.svg" width="34" height="34" alt="FastAPI"></a>&nbsp;
+  <a href="https://tailwindcss.com" target="_blank" rel="noreferrer"><img src="assets/icons/tailwindcss.svg" width="34" height="34" alt="Tailwind CSS"></a>&nbsp;
+  <a href="https://www.docker.com" target="_blank" rel="noreferrer"><img src="assets/icons/docker.svg" width="34" height="34" alt="Docker"></a>
+</p>
 
 <img src="assets/screenshots/vfitadmin-launcher-blurred.webp" width="70%" alt="VFITADMIN Tool Kit: SiteAdmin Launcher tab with the credentials form and authentication status panel" style="border-radius: 12px; border: 1px solid #30363d;">
 
