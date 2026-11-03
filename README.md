@@ -1,15 +1,6 @@
 <div id="top" align="center">
 
-<!-- MARK - stroke-drawn RD monogram (scripts/mark.py) -->
-<a href="https://github.com/rupal2k">
-<picture>
-  <source media="(prefers-color-scheme: dark)"  srcset="assets/mark-dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="assets/mark-light.svg">
-  <img src="assets/mark-dark.svg" width="120" alt="RD monogram">
-</picture>
-</a>
-
-<!-- OPENING LINE -->
+<!-- OPENING LINE - stroke letters with scrolling gradient bands (scripts/headline.py) -->
 <picture>
   <source media="(prefers-color-scheme: dark)"  srcset="assets/headline-dark.svg">
   <source media="(prefers-color-scheme: light)" srcset="assets/headline-light.svg">
