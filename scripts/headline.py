@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 """headline.py - Omarchy-style headline on one line: thick stroke letters filled with
 hard-stop colour bands that scroll continuously. Stdlib only.
-Writes assets/title-{theme}.svg."""
+Writes assets/name-{theme}.svg."""
 
 from __future__ import annotations
 
@@ -9,7 +9,7 @@ import html
 import xml.etree.ElementTree as ET
 from pathlib import Path
 
-TEXT = "RUPAL DAS: TECHNICAL OPERATIONS & CLIENT SUCCESS"
+TEXT = "RUPAL DAS: CLIENT SUCCESS & TECHNICAL OPERATIONS LEAD"
 
 BANDS = {  # top to bottom, (end offset %, colour)
     "dark": [(26.316, "#ECFCCB"), (36.842, "#D9F99D"), (57.895, "#A3E635"), (73.684, "#84CC16"), (100, "#4D7C0F")],
@@ -79,5 +79,5 @@ if __name__ == "__main__":
     for theme in BANDS:
         text = headline(theme)
         ET.fromstring(text)  # self-check: well-formed XML
-        (out / f"title-{theme}.svg").write_text(text, encoding="utf-8", newline="\n")
-        print(f"wrote assets/title-{theme}.svg ({len(text) // 1024} KB)")
+        (out / f"name-{theme}.svg").write_text(text, encoding="utf-8", newline="\n")
+        print(f"wrote assets/name-{theme}.svg ({len(text) // 1024} KB)")

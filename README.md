@@ -2,12 +2,12 @@
 
 <!-- OPENING LINE - stroke letters with scrolling gradient bands (scripts/headline.py) -->
 <picture>
-  <source media="(prefers-color-scheme: dark)"  srcset="assets/title-dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="assets/title-light.svg">
-  <img src="assets/title-dark.svg" width="100%" alt="Rupal Das: Technical Operations &amp; Client Success">
+  <source media="(prefers-color-scheme: dark)"  srcset="assets/name-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="assets/name-light.svg">
+  <img src="assets/name-dark.svg" width="100%" alt="Rupal Das: Client Success &amp; Technical Operations Lead">
 </picture>
 
-<p><b>Technical Operations &amp; Client Success Lead at <a href="https://www.vantagecircle.com">Vantage Circle</a></b><br>
+<p><b>Client Success &amp; Technical Operations Lead at <a href="https://www.vantagecircle.com">Vantage Circle</a></b><br>
 Enterprise SaaS delivery for the age of agents: 15+ enterprise rollouts, zero missed go-lives, and the automation that keeps them running.</p>
 
 <br>
