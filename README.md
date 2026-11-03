@@ -16,7 +16,7 @@ Fifteen enterprise rollouts, zero missed go-lives, and the automation that keeps
 <a href="https://www.linkedin.com/in/rupal-das-03ba082a/"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"></a>&nbsp;&nbsp;
 <a href="https://rupalportfolio.vercel.app/"><img src="https://img.shields.io/badge/Portfolio-161b22?style=for-the-badge&logo=vercel&logoColor=a3e635" alt="Portfolio"></a>&nbsp;&nbsp;
 <a href="mailto:rupal2k@gmail.com"><img src="https://img.shields.io/badge/Email-161b22?style=for-the-badge&logo=gmail&logoColor=a3e635" alt="Email"></a>&nbsp;&nbsp;
-<a href="https://www.linkedin.com/in/rupal-das-03ba082a/"><img src="https://img.shields.io/badge/Scrum_Master-161b22?style=for-the-badge&logo=scrumalliance&logoColor=a3e635" alt="CSM"></a>&nbsp;&nbsp;
+<a href="https://app.badgecert.com/public/badges/frvmilpj"><img src="https://img.shields.io/badge/Scrum_Master-161b22?style=for-the-badge&logo=scrumalliance&logoColor=a3e635" alt="CSM"></a>&nbsp;&nbsp;
 <a href="https://www.youtube.com/@wand3ring_monk859" target="_blank"><img src="https://img.shields.io/badge/YouTube-FF0000?style=for-the-badge&logo=youtube&logoColor=white" alt="YouTube"></a>
 
 <br><br>
