@@ -92,31 +92,41 @@
 
 <br>
 
-<!-- VFITADMIN Tool Kit (company project, private repository) -->
-<p align="center"><b>VFITADMIN Tool Kit</b> · Self-hosted Admin Workstation for Vantage Fit Site Administrators · Vantage Circle</p>
+<!-- OpenFit Spotlight Feature -->
+<a href="https://github.com/rupal2k/openfit">
+<picture>
+  <source media="(prefers-color-scheme: dark)"  srcset="assets/card-openfit-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="assets/card-openfit-light.svg">
+  <img src="assets/card-openfit-dark.svg" width="60%" alt="OPENFIT">
+</picture>
+</a>
 
 <p align="center">
-  <img src="https://img.shields.io/badge/Type-Internal_Tool-64748b?style=flat-square" alt="Type: internal tool">&nbsp;
-  <img src="https://img.shields.io/badge/Version-1.3.0-6366f1?style=flat-square" alt="Version 1.3.0">&nbsp;
-  <img src="https://img.shields.io/badge/API-FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white" alt="FastAPI">&nbsp;
-  <img src="https://img.shields.io/badge/Automation-Playwright-45ba4b?style=flat-square" alt="Playwright">&nbsp;
-  <img src="https://img.shields.io/badge/Container-Docker-2496ed?style=flat-square&logo=docker&logoColor=white" alt="Docker">&nbsp;
-  <img src="https://img.shields.io/badge/Security-Domain_Allowlist-a3e635?style=flat-square" alt="Domain allowlist">&nbsp;
-  <img src="https://img.shields.io/badge/Tests-17_passing-22c55e?style=flat-square" alt="17 tests passing">
+  <img src="https://img.shields.io/badge/Status-Work_in_Progress-eab308?style=flat-square" alt="Status: work in progress">&nbsp;
+  <img src="https://img.shields.io/badge/Architecture-Offline--First-22c55e?style=flat-square" alt="Offline-First">&nbsp;
+  <img src="https://img.shields.io/badge/Vision_AI-MobileNet_WASM-3b82f6?style=flat-square" alt="MobileNet WASM">&nbsp;
+  <img src="https://img.shields.io/badge/Frontend-React_19_+_Vite-61dafb?style=flat-square&logo=react&logoColor=black" alt="React 19">&nbsp;
+  <img src="https://img.shields.io/badge/Mobile-Capacitor_Android-3880ff?style=flat-square&logo=android&logoColor=white" alt="Android">&nbsp;
+  <img src="https://img.shields.io/badge/Auth-WebAuthn_Passkeys-f59e0b?style=flat-square" alt="Passkey auth">&nbsp;
+  <img src="https://img.shields.io/badge/Privacy-Self--Hosted_Data-a3e635?style=flat-square" alt="Self-hosted data">
 </p>
 
 <p align="center">
-  <a href="https://www.python.org" target="_blank" rel="noreferrer"><img src="assets/icons/python.svg" width="34" height="34" alt="Python"></a>&nbsp;
-  <a href="https://fastapi.tiangolo.com" target="_blank" rel="noreferrer"><img src="assets/icons/fastapi.svg" width="34" height="34" alt="FastAPI"></a>&nbsp;
-  <a href="https://tailwindcss.com" target="_blank" rel="noreferrer"><img src="assets/icons/tailwindcss.svg" width="34" height="34" alt="Tailwind CSS"></a>&nbsp;
-  <a href="https://www.docker.com" target="_blank" rel="noreferrer"><img src="assets/icons/docker.svg" width="34" height="34" alt="Docker"></a>
+  <a href="https://react.dev" target="_blank" rel="noreferrer"><img src="assets/icons/react.svg" width="34" height="34" alt="React"></a>&nbsp;
+  <a href="https://vite.dev" target="_blank" rel="noreferrer"><img src="assets/icons/vite.svg" width="34" height="34" alt="Vite"></a>&nbsp;
+  <a href="https://nodejs.org" target="_blank" rel="noreferrer"><img src="assets/icons/nodejs.svg" width="34" height="34" alt="Node.js"></a>&nbsp;
+  <a href="https://nginx.org" target="_blank" rel="noreferrer"><img src="assets/icons/nginx.svg" width="34" height="34" alt="nginx"></a>&nbsp;
+  <a href="https://www.docker.com" target="_blank" rel="noreferrer"><img src="assets/icons/docker.svg" width="34" height="34" alt="Docker"></a>&nbsp;
+  <a href="https://capacitorjs.com" target="_blank" rel="noreferrer"><img src="assets/icons/androidstudio.svg" width="34" height="34" alt="Android (Capacitor)"></a>
 </p>
 
-<img src="assets/screenshots/vfitadmin-launcher-blurred.webp" width="70%" alt="VFITADMIN Tool Kit: SiteAdmin Launcher tab with the credentials form and authentication status panel" style="border-radius: 12px; border: 1px solid #30363d;">
+<a href="https://github.com/rupal2k/openfit">
+  <img src="assets/screenshots/openfit-carousel.gif" width="340" alt="OPENFIT App Walkthrough Carousel" style="border-radius: 12px; border: 1px solid #30363d;">
+</a>
 
 <p align="center">
-  <sub>Combines three daily admin tasks in one local dashboard. It opens Vantage Fit SiteAdmin in one click by signing in and capturing the session token, which removes the manual copying from DevTools. It also generates QR codes for check-in and campaign links, and resizes badges, avatars and banners to exact pixel and file-size limits entirely in the browser.<br>
-  Built with FastAPI and Playwright, and runs in Docker. Credentials can only be sent to Vantage Circle domains. The password is never sent back to the browser, and requests from other hostnames are refused. 17 offline tests.</sub>
+  <sub><b>OPENFIT</b> · Self-hosted Gym, Body-Weight & Nutrition Tracker with On-Device AI Vision</sub><br>
+  <sub><a href="https://github.com/rupal2k/openfit"><b>Explore Repository ↗</b></a> &nbsp;•&nbsp; <a href="https://github.com/rupal2k/openfit/releases/latest/download/app-release.apk"><b>Download Signed APK ↗</b></a> &nbsp;•&nbsp; <a href="https://github.com/rupal2k/openfit/blob/main/docs/ARCHITECTURE.md"><b>Architecture Docs ↗</b></a></sub>
 </p>
 
 <br>
@@ -202,41 +212,31 @@
 
 <br>
 
-<!-- OpenFit Spotlight Feature -->
-<a href="https://github.com/rupal2k/openfit">
-<picture>
-  <source media="(prefers-color-scheme: dark)"  srcset="assets/card-openfit-dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="assets/card-openfit-light.svg">
-  <img src="assets/card-openfit-dark.svg" width="60%" alt="OPENFIT">
-</picture>
-</a>
+<!-- VFITADMIN Tool Kit (company project, private repository) -->
+<p align="center"><b>VFITADMIN Tool Kit</b> · Self-hosted Admin Workstation for Vantage Fit Site Administrators · Vantage Circle</p>
 
 <p align="center">
-  <img src="https://img.shields.io/badge/Status-Work_in_Progress-eab308?style=flat-square" alt="Status: work in progress">&nbsp;
-  <img src="https://img.shields.io/badge/Architecture-Offline--First-22c55e?style=flat-square" alt="Offline-First">&nbsp;
-  <img src="https://img.shields.io/badge/Vision_AI-MobileNet_WASM-3b82f6?style=flat-square" alt="MobileNet WASM">&nbsp;
-  <img src="https://img.shields.io/badge/Frontend-React_19_+_Vite-61dafb?style=flat-square&logo=react&logoColor=black" alt="React 19">&nbsp;
-  <img src="https://img.shields.io/badge/Mobile-Capacitor_Android-3880ff?style=flat-square&logo=android&logoColor=white" alt="Android">&nbsp;
-  <img src="https://img.shields.io/badge/Auth-WebAuthn_Passkeys-f59e0b?style=flat-square" alt="Passkey auth">&nbsp;
-  <img src="https://img.shields.io/badge/Privacy-Self--Hosted_Data-a3e635?style=flat-square" alt="Self-hosted data">
+  <img src="https://img.shields.io/badge/Type-Internal_Tool-64748b?style=flat-square" alt="Type: internal tool">&nbsp;
+  <img src="https://img.shields.io/badge/Version-1.3.0-6366f1?style=flat-square" alt="Version 1.3.0">&nbsp;
+  <img src="https://img.shields.io/badge/API-FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white" alt="FastAPI">&nbsp;
+  <img src="https://img.shields.io/badge/Automation-Playwright-45ba4b?style=flat-square" alt="Playwright">&nbsp;
+  <img src="https://img.shields.io/badge/Container-Docker-2496ed?style=flat-square&logo=docker&logoColor=white" alt="Docker">&nbsp;
+  <img src="https://img.shields.io/badge/Security-Domain_Allowlist-a3e635?style=flat-square" alt="Domain allowlist">&nbsp;
+  <img src="https://img.shields.io/badge/Tests-17_passing-22c55e?style=flat-square" alt="17 tests passing">
 </p>
 
 <p align="center">
-  <a href="https://react.dev" target="_blank" rel="noreferrer"><img src="assets/icons/react.svg" width="34" height="34" alt="React"></a>&nbsp;
-  <a href="https://vite.dev" target="_blank" rel="noreferrer"><img src="assets/icons/vite.svg" width="34" height="34" alt="Vite"></a>&nbsp;
-  <a href="https://nodejs.org" target="_blank" rel="noreferrer"><img src="assets/icons/nodejs.svg" width="34" height="34" alt="Node.js"></a>&nbsp;
-  <a href="https://nginx.org" target="_blank" rel="noreferrer"><img src="assets/icons/nginx.svg" width="34" height="34" alt="nginx"></a>&nbsp;
-  <a href="https://www.docker.com" target="_blank" rel="noreferrer"><img src="assets/icons/docker.svg" width="34" height="34" alt="Docker"></a>&nbsp;
-  <a href="https://capacitorjs.com" target="_blank" rel="noreferrer"><img src="assets/icons/androidstudio.svg" width="34" height="34" alt="Android (Capacitor)"></a>
+  <a href="https://www.python.org" target="_blank" rel="noreferrer"><img src="assets/icons/python.svg" width="34" height="34" alt="Python"></a>&nbsp;
+  <a href="https://fastapi.tiangolo.com" target="_blank" rel="noreferrer"><img src="assets/icons/fastapi.svg" width="34" height="34" alt="FastAPI"></a>&nbsp;
+  <a href="https://tailwindcss.com" target="_blank" rel="noreferrer"><img src="assets/icons/tailwindcss.svg" width="34" height="34" alt="Tailwind CSS"></a>&nbsp;
+  <a href="https://www.docker.com" target="_blank" rel="noreferrer"><img src="assets/icons/docker.svg" width="34" height="34" alt="Docker"></a>
 </p>
 
-<a href="https://github.com/rupal2k/openfit">
-  <img src="assets/screenshots/openfit-carousel.gif" width="340" alt="OPENFIT App Walkthrough Carousel" style="border-radius: 12px; border: 1px solid #30363d;">
-</a>
+<img src="assets/screenshots/vfitadmin-launcher-blurred.webp" width="70%" alt="VFITADMIN Tool Kit: SiteAdmin Launcher tab with the credentials form and authentication status panel" style="border-radius: 12px; border: 1px solid #30363d;">
 
 <p align="center">
-  <sub><b>OPENFIT</b> · Self-hosted Gym, Body-Weight & Nutrition Tracker with On-Device AI Vision</sub><br>
-  <sub><a href="https://github.com/rupal2k/openfit"><b>Explore Repository ↗</b></a> &nbsp;•&nbsp; <a href="https://github.com/rupal2k/openfit/releases/latest/download/app-release.apk"><b>Download Signed APK ↗</b></a> &nbsp;•&nbsp; <a href="https://github.com/rupal2k/openfit/blob/main/docs/ARCHITECTURE.md"><b>Architecture Docs ↗</b></a></sub>
+  <sub>Combines three daily admin tasks in one local dashboard. It opens Vantage Fit SiteAdmin in one click by signing in and capturing the session token, which removes the manual copying from DevTools. It also generates QR codes for check-in and campaign links, and resizes badges, avatars and banners to exact pixel and file-size limits entirely in the browser.<br>
+  Built with FastAPI and Playwright, and runs in Docker. Credentials can only be sent to Vantage Circle domains. The password is never sent back to the browser, and requests from other hostnames are refused. 17 offline tests.</sub>
 </p>
 
 </div>
