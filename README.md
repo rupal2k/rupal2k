@@ -2,9 +2,9 @@
 
 <!-- OPENING LINE - stroke letters with scrolling gradient bands (scripts/headline.py) -->
 <picture>
-  <source media="(prefers-color-scheme: dark)"  srcset="assets/name-dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="assets/name-light.svg">
-  <img src="assets/name-dark.svg" width="100%" alt="Rupal Das: Client Success &amp; Technical Operations Lead">
+  <source media="(prefers-color-scheme: dark)"  srcset="assets/hero-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="assets/hero-light.svg">
+  <img src="assets/hero-dark.svg" width="100%" alt="Rupal Das: Client Success &amp; Technical Operations">
 </picture>
 
 <p><b>Client Success &amp; Technical Operations Lead at <a href="https://www.vantagecircle.com">Vantage Circle</a></b><br>
