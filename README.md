@@ -2,9 +2,9 @@
 
 <!-- OPENING LINE - stroke letters with scrolling gradient bands (scripts/headline.py) -->
 <picture>
-  <source media="(prefers-color-scheme: dark)"  srcset="assets/headline-dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="assets/headline-light.svg">
-  <img src="assets/headline-dark.svg" width="100%" alt="Rupal Das: Hands-on, technical &amp; agentic Client Success">
+  <source media="(prefers-color-scheme: dark)"  srcset="assets/title-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="assets/title-light.svg">
+  <img src="assets/title-dark.svg" width="100%" alt="Rupal Das: Technical Operations &amp; Client Success">
 </picture>
 
 <p><b>Enterprise SaaS delivery for the age of agents.</b><br>
