@@ -47,7 +47,7 @@ Enterprise SaaS delivery for the age of agents: 15+ enterprise rollouts, zero mi
 
 ## 📌 About Me
 
-Based in India 🇮🇳. I bridge enterprise client operations, scalable SaaS delivery, and applied automation — owning rollouts end-to-end from discovery and API integrations to go-live and operational telemetry.
+Based in India. I bridge enterprise client operations, scalable SaaS delivery, and applied automation — owning rollouts end-to-end from discovery and API integrations to go-live and operational telemetry.
 
 - 🏢 **Enterprise SaaS Onboarding**: Managing end-to-end platform deployments across the Americas, Europe, and India for Fortune 500 and enterprise accounts (enterprise software, global business services and US energy sectors).
 - 🎓 **Applied AI for Business Operations**: Executive Program at **IIM Lucknow**, focusing on applying Generative AI and automated agent workflows to streamline client enablement and operations.
