@@ -1,11 +1,21 @@
 <div id="top" align="center">
 
-<!-- NAME / TAGLINE - animated typing -->
+<!-- MARK - stroke-drawn RD monogram (scripts/mark.py) -->
 <a href="https://github.com/rupal2k">
-  <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=700&size=26&duration=2500&pause=1000&color=A3E635&center=true&vCenter=true&width=880&lines=Rupal+Das+%E2%80%94+Client+Success+%26+Technical+Operations+Lead;Enterprise+SaaS+Deployments+%C2%B7+Global+Client+Delivery;Applied+AI+%26+Workflow+Automation+%C2%B7+IIM+Lucknow+(Exec);Certified+Scrum+Master+(CSM%C2%AE)+%C2%B7+Telemetry+%26+Integration" alt="Rupal Das typing banner">
+<picture>
+  <source media="(prefers-color-scheme: dark)"  srcset="assets/mark-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="assets/mark-light.svg">
+  <img src="assets/mark-dark.svg" width="120" alt="RD monogram">
+</picture>
 </a>
 
-<br><br>
+<!-- OPENING LINE -->
+<h1>Rupal Das: Hands-on, technical &amp; agentic Client Success</h1>
+
+<p><b>Enterprise SaaS delivery for the age of agents.</b><br>
+Fifteen enterprise rollouts, zero missed go-lives, and the automation that keeps them running.</p>
+
+<br>
 
 <!-- PROFESSIONAL SOCIALS & CREDENTIALS -->
 <a href="https://www.linkedin.com/in/rupal-das-03ba082a/"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"></a>&nbsp;&nbsp;

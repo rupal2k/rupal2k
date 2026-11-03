@@ -20,6 +20,7 @@ def main():
     # 1. Terminal banner
     print("\n[1/3] Rendering Terminal Banner...")
     run(sys.executable, "scripts/banner.py")
+    run(sys.executable, "scripts/mark.py")
 
     # 2. Competencies & Tooling Radars
     print("\n[2/3] Rendering Skill & Domain Radars...")
