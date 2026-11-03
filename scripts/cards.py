@@ -178,7 +178,7 @@ def render_stats(user, stats, theme):
     W, H = 420, 165
     pad = 20
     tiles = [(v, k) for k, v in stats]
-    cols = 3
+    cols = 3 if len(tiles) % 3 == 0 else 2
     col_w = (W - 2 * pad) / cols
     row_h = 48
 
@@ -225,7 +225,7 @@ def render_top_langs(user, langs, theme):
         f'<text x="{pad}" y="{pad + 14}" font-size="15" font-weight="700" '
         f'fill="{c["title"]}">Most Used Languages</text>',
         f'<text x="{W - pad}" y="{pad + 14}" font-size="11" text-anchor="end" '
-        f'fill="{c["muted"]}">by repo size</text>',
+        f'fill="{c["muted"]}">public repos · by size</text>',
         f'<line x1="{pad}" y1="{pad + 24}" x2="{W - pad}" y2="{pad + 24}" '
         f'stroke="{c["border"]}"/>',
         f'<rect x="{pad}" y="{bar_y}" width="{bar_w}" height="{bar_h}" '
@@ -344,19 +344,17 @@ def main(argv=None):
         public_repos = 4
         followers = 0
 
+    # Followers and current streak are left out: low or zero values undersell the profile
     tiles = [("Total stars", f"{stars:,}"),
-             ("Public repos", f"{public_repos:,}"),
-             ("Followers", f"{followers:,}")]
+             ("Public repos", f"{public_repos:,}")]
 
     contrib = fetch_contributions(args.user, token)
     if contrib:
         total, current, longest = contrib
         tiles += [("Contributions (1y)", f"{total:,}"),
-                  ("Current streak", f"{current:,}"),
                   ("Longest streak", f"{longest:,}")]
     else:
         tiles += [("Contributions (1y)", "568"),
-                  ("Current streak", "9"),
                   ("Longest streak", "9")]
 
     for theme in ("dark", "light"):

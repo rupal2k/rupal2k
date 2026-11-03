@@ -7,8 +7,8 @@
   <img src="assets/title-dark.svg" width="100%" alt="Rupal Das: Technical Operations &amp; Client Success">
 </picture>
 
-<p><b>Enterprise SaaS delivery for the age of agents.</b><br>
-Fifteen enterprise rollouts, zero missed go-lives, and the automation that keeps them running.</p>
+<p><b>Technical Operations &amp; Client Success Lead at <a href="https://www.vantagecircle.com">Vantage Circle</a></b><br>
+Enterprise SaaS delivery for the age of agents: 15+ enterprise rollouts, zero missed go-lives, and the automation that keeps them running.</p>
 
 <br>
 
@@ -16,17 +16,8 @@ Fifteen enterprise rollouts, zero missed go-lives, and the automation that keeps
 <a href="https://www.linkedin.com/in/rupal-das-03ba082a/"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"></a>&nbsp;&nbsp;
 <a href="https://rupalportfolio.vercel.app/"><img src="https://img.shields.io/badge/Portfolio-161b22?style=for-the-badge&logo=vercel&logoColor=a3e635" alt="Portfolio"></a>&nbsp;&nbsp;
 <a href="mailto:rupal2k@gmail.com"><img src="https://img.shields.io/badge/Email-161b22?style=for-the-badge&logo=gmail&logoColor=a3e635" alt="Email"></a>&nbsp;&nbsp;
-<a href="https://app.badgecert.com/public/badges/frvmilpj"><img src="https://img.shields.io/badge/Scrum_Master-161b22?style=for-the-badge&logo=scrumalliance&logoColor=a3e635" alt="CSM"></a>&nbsp;&nbsp;
+<a href="https://app.badgecert.com/public/badges/frvmilpj"><img src="https://img.shields.io/badge/Certified_Scrum_Master-009FDA?style=for-the-badge" alt="Certified Scrum Master"></a>&nbsp;&nbsp;
 <a href="https://www.youtube.com/@wand3ring_monk859" target="_blank"><img src="https://img.shields.io/badge/YouTube-FF0000?style=for-the-badge&logo=youtube&logoColor=white" alt="YouTube"></a>
-
-<br><br>
-
-<!-- TERMINAL BANNER (dark/light adaptive) -->
-<picture>
-  <source media="(prefers-color-scheme: dark)"  srcset="assets/banner-dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="assets/banner-light.svg">
-  <img src="assets/banner-dark.svg" width="100%" alt="rupal.sh --live">
-</picture>
 
 <br><br>
 
@@ -39,6 +30,15 @@ Fifteen enterprise rollouts, zero missed go-lives, and the automation that keeps
   <a href="#github-telemetry"><b>GitHub Telemetry</b></a>
 </p>
 
+<br>
+
+<!-- TERMINAL BANNER (dark/light adaptive) -->
+<picture>
+  <source media="(prefers-color-scheme: dark)"  srcset="assets/banner-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="assets/banner-light.svg">
+  <img src="assets/banner-dark.svg" width="100%" alt="rupal.sh --live">
+</picture>
+
 </div>
 
 ---
@@ -47,9 +47,7 @@ Fifteen enterprise rollouts, zero missed go-lives, and the automation that keeps
 
 ## 📌 About Me
 
-> **Client Success & Technical Operations Lead** at [Vantage Circle](https://www.vantagecircle.com) · India 🇮🇳  
-> Bridging enterprise client operations, scalable SaaS delivery, and applied automation — owning rollouts end-to-end from discovery and API integrations to go-live and operational telemetry.
-
+Based in India 🇮🇳. I bridge enterprise client operations, scalable SaaS delivery, and applied automation — owning rollouts end-to-end from discovery and API integrations to go-live and operational telemetry.
 
 - 🏢 **Enterprise SaaS Onboarding**: Managing end-to-end platform deployments across the Americas, Europe, and India for Fortune 500 and enterprise accounts (enterprise software, global business services and US energy sectors).
 - 🎓 **Applied AI for Business Operations**: Executive Program at **IIM Lucknow**, focusing on applying Generative AI and automated agent workflows to streamline client enablement and operations.
@@ -62,17 +60,17 @@ Fifteen enterprise rollouts, zero missed go-lives, and the automation that keeps
 ---
 
 <div id="featured-systems"></div>
-<div id="flagship-engineering" align="center">
 
 ## 🛠️ Featured Systems & Engineering
 
+<div id="flagship-engineering" align="center">
+
 <!-- Vantage Fit Welcome Site (company project, private repository) -->
-<p align="center"><b>Vantage Fit Welcome Site</b> · Onboarding Guide for the Vantage Fit App · Vantage Circle</p>
+<h3>Vantage Fit Welcome Site</h3>
+<p>Onboarding guide for the Vantage Fit app · Vantage Circle</p>
 
 <p align="center">
   <img src="https://img.shields.io/badge/Status-Live-22c55e?style=flat-square" alt="Status: live">&nbsp;
-  <img src="https://img.shields.io/badge/Hosting-Cloudflare_Workers-f38020?style=flat-square&logo=cloudflare&logoColor=white" alt="Cloudflare Workers">&nbsp;
-  <img src="https://img.shields.io/badge/Frontend-React_+_Vite-61dafb?style=flat-square&logo=react&logoColor=black" alt="React + Vite">&nbsp;
   <img src="https://img.shields.io/badge/Accessibility-WCAG_2.1_AA-3b82f6?style=flat-square" alt="WCAG 2.1 AA">&nbsp;
   <img src="https://img.shields.io/badge/Security-Strict_CSP_+_HSTS-a3e635?style=flat-square" alt="Strict CSP and HSTS">
 </p>
@@ -89,9 +87,9 @@ Fifteen enterprise rollouts, zero missed go-lives, and the automation that keeps
   <img src="assets/screenshots/vfitwelcome.webp" width="70%" alt="Vantage Fit Welcome Site: hero section with the Vantage Fit logo, Get Started button and app screenshots" style="border-radius: 12px; border: 1px solid #30363d;">
 </a>
 
-<p align="center">
-  <sub>The guide that opens from the <b>Click to view guide</b> banner in each organisation's branded Vantage Fit app. New users install the app, connect a device, learn each task type and join a team, then return to the app.<br>
-  I moved the site from Lovable to Cloudflare with the same behaviour, then made it production-ready: WCAG 2.1 AA contrast, about 95% lighter feature images, a strict security policy, no third-party scripts, and zero console errors. One deployment serves every client's branded app.</sub><br>
+<p align="left">
+  The guide that opens from the <b>Click to view guide</b> banner in each organisation's branded Vantage Fit app. New users install the app, connect a device, learn each task type and join a team, then return to the app.<br>
+  I moved the site from Lovable to Cloudflare with the same behaviour, then made it production-ready: WCAG 2.1 AA contrast, about 95% lighter feature images, a strict security policy, no third-party scripts, and zero console errors. One deployment serves every client's branded app.<br>
   <sub><a href="https://vfitwelcome.vanfit.workers.dev/"><b>Live Site (Cloudflare) ↗</b></a> &nbsp;•&nbsp; <a href="https://vfitwelcome.lovable.app/"><b>Original (Lovable) ↗</b></a> &nbsp;•&nbsp; Private repository</sub>
 </p>
 
@@ -109,11 +107,7 @@ Fifteen enterprise rollouts, zero missed go-lives, and the automation that keeps
 <p align="center">
   <img src="https://img.shields.io/badge/Status-Work_in_Progress-eab308?style=flat-square" alt="Status: work in progress">&nbsp;
   <img src="https://img.shields.io/badge/Architecture-Offline--First-22c55e?style=flat-square" alt="Offline-First">&nbsp;
-  <img src="https://img.shields.io/badge/Vision_AI-MobileNet_WASM-3b82f6?style=flat-square" alt="MobileNet WASM">&nbsp;
-  <img src="https://img.shields.io/badge/Frontend-React_19_+_Vite-61dafb?style=flat-square&logo=react&logoColor=black" alt="React 19">&nbsp;
-  <img src="https://img.shields.io/badge/Mobile-Capacitor_Android-3880ff?style=flat-square&logo=android&logoColor=white" alt="Android">&nbsp;
-  <img src="https://img.shields.io/badge/Auth-WebAuthn_Passkeys-f59e0b?style=flat-square" alt="Passkey auth">&nbsp;
-  <img src="https://img.shields.io/badge/Privacy-Self--Hosted_Data-a3e635?style=flat-square" alt="Self-hosted data">
+  <img src="https://img.shields.io/badge/Vision_AI-MobileNet_WASM-3b82f6?style=flat-square" alt="MobileNet WASM">
 </p>
 
 <p align="center">
@@ -151,9 +145,7 @@ Fifteen enterprise rollouts, zero missed go-lives, and the automation that keeps
 
 <p align="center">
   <img src="https://img.shields.io/badge/Status-Work_in_Progress-eab308?style=flat-square" alt="Status: work in progress">&nbsp;
-  <img src="https://img.shields.io/badge/ML-XGBoost_+_SHAP-f97316?style=flat-square" alt="XGBoost + SHAP">&nbsp;
-  <img src="https://img.shields.io/badge/API-FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white" alt="FastAPI">&nbsp;
-  <img src="https://img.shields.io/badge/Container-Docker-2496ed?style=flat-square&logo=docker&logoColor=white" alt="Docker">
+  <img src="https://img.shields.io/badge/ML-XGBoost_+_SHAP-f97316?style=flat-square" alt="XGBoost + SHAP">
 </p>
 
 <p align="center">
@@ -218,14 +210,12 @@ Fifteen enterprise rollouts, zero missed go-lives, and the automation that keeps
 <br>
 
 <!-- VFITADMIN Tool Kit (company project, private repository) -->
-<p align="center"><b>VFITADMIN Tool Kit</b> · Self-hosted Admin Workstation for Vantage Fit Site Administrators · Vantage Circle</p>
+<h3>VFITADMIN Tool Kit</h3>
+<p>Self-hosted admin workstation for Vantage Fit site administrators · Vantage Circle</p>
 
 <p align="center">
   <img src="https://img.shields.io/badge/Type-Internal_Tool-64748b?style=flat-square" alt="Type: internal tool">&nbsp;
-  <img src="https://img.shields.io/badge/Version-1.3.0-6366f1?style=flat-square" alt="Version 1.3.0">&nbsp;
-  <img src="https://img.shields.io/badge/API-FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white" alt="FastAPI">&nbsp;
   <img src="https://img.shields.io/badge/Automation-Playwright-45ba4b?style=flat-square" alt="Playwright">&nbsp;
-  <img src="https://img.shields.io/badge/Container-Docker-2496ed?style=flat-square&logo=docker&logoColor=white" alt="Docker">&nbsp;
   <img src="https://img.shields.io/badge/Security-Domain_Allowlist-a3e635?style=flat-square" alt="Domain allowlist">&nbsp;
   <img src="https://img.shields.io/badge/Tests-17_passing-22c55e?style=flat-square" alt="17 tests passing">
 </p>
@@ -239,9 +229,9 @@ Fifteen enterprise rollouts, zero missed go-lives, and the automation that keeps
 
 <img src="assets/screenshots/vfitadmin-launcher-blurred.webp" width="70%" alt="VFITADMIN Tool Kit: SiteAdmin Launcher tab with the credentials form and authentication status panel" style="border-radius: 12px; border: 1px solid #30363d;">
 
-<p align="center">
-  <sub>Combines three daily admin tasks in one local dashboard. It opens Vantage Fit SiteAdmin in one click by signing in and capturing the session token, which removes the manual copying from DevTools. It also generates QR codes for check-in and campaign links, and resizes badges, avatars and banners to exact pixel and file-size limits entirely in the browser.<br>
-  Built with FastAPI and Playwright, and runs in Docker. Credentials can only be sent to Vantage Circle domains. The password is never sent back to the browser, and requests from other hostnames are refused. 17 offline tests.</sub>
+<p align="left">
+  Combines three daily admin tasks in one local dashboard. It opens Vantage Fit SiteAdmin in one click by signing in and capturing the session token, which removes the manual copying from DevTools. It also generates QR codes for check-in and campaign links, and resizes badges, avatars and banners to exact pixel and file-size limits entirely in the browser.<br>
+  Built with FastAPI and Playwright, and runs in Docker. Credentials can only be sent to Vantage Circle domains. The password is never sent back to the browser, and requests from other hostnames are refused. 17 offline tests.
 </p>
 
 </div>
@@ -254,7 +244,8 @@ Fifteen enterprise rollouts, zero missed go-lives, and the automation that keeps
 
 <div align="center">
 
-<p align="center"><b>Kyra</b> · Raspberry Pi Unmanned Ground Vehicle · 2016</p>
+<h3>Kyra</h3>
+<p>Raspberry Pi unmanned ground vehicle · 2016</p>
 
 <p align="center">
   <img src="https://img.shields.io/badge/Board-Raspberry_Pi_3B-c51a4a?style=flat-square&logo=raspberrypi&logoColor=white" alt="Raspberry Pi 3B">&nbsp;
@@ -265,8 +256,8 @@ Fifteen enterprise rollouts, zero missed go-lives, and the automation that keeps
 
 <img src="assets/screenshots/kyra-carousel.gif" width="340" alt="Kyra build photos: Raspberry Pi 3B on a 4x4 rock crawler with Pi Camera, HC-SR04 sensor and phone control, plus the tracked tank version" style="border-radius: 12px; border: 1px solid #30363d;">
 
-<p align="center">
-  <sub>A rock-crawler rover rebuilt around a Raspberry Pi 3B: live camera, lights and motors all controlled over the network, driven through a Pi Motor HAT, with an HC-SR04 ultrasonic sensor for range sensing in reverse.<br>Built in two versions: the 4x4 rock crawler and a tracked tank.</sub>
+<p align="left">
+  A rock-crawler rover rebuilt around a Raspberry Pi 3B: live camera, lights and motors all controlled over the network, driven through a Pi Motor HAT, with an HC-SR04 ultrasonic sensor for range sensing in reverse.<br>Built in two versions: the 4x4 rock crawler and a tracked tank.
 </p>
 
 </div>
@@ -361,7 +352,7 @@ Fifteen enterprise rollouts, zero missed go-lives, and the automation that keeps
 
 <div align="center">
 
-<sub><b>Rupal Das</b> · Enterprise Technical Operations, Client Success & Applied AI Systems · <a href="https://github.com/rupal2k">@rupal2k</a></sub>
+<sub><b>Rupal Das</b> · <a href="https://github.com/rupal2k">@rupal2k</a></sub>
 
 </div>
 
