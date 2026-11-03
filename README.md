@@ -10,7 +10,11 @@
 </a>
 
 <!-- OPENING LINE -->
-<h1>Rupal Das: Hands-on, technical &amp; agentic Client Success</h1>
+<picture>
+  <source media="(prefers-color-scheme: dark)"  srcset="assets/headline-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="assets/headline-light.svg">
+  <img src="assets/headline-dark.svg" width="100%" alt="Rupal Das: Hands-on, technical &amp; agentic Client Success">
+</picture>
 
 <p><b>Enterprise SaaS delivery for the age of agents.</b><br>
 Fifteen enterprise rollouts, zero missed go-lives, and the automation that keeps them running.</p>
