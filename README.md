@@ -95,12 +95,12 @@ Based in India. I bridge enterprise client operations, scalable SaaS delivery, a
 
 <br>
 
-<!-- OpenFit Spotlight Feature -->
-<a href="https://github.com/rupal2k/openfit">
+<!-- OpenFettle Spotlight Feature -->
+<a href="https://github.com/rupal2k/openfettle">
 <picture>
-  <source media="(prefers-color-scheme: dark)"  srcset="assets/card-openfit-dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="assets/card-openfit-light.svg">
-  <img src="assets/card-openfit-dark.svg" width="60%" alt="OPENFIT">
+  <source media="(prefers-color-scheme: dark)"  srcset="assets/card-openfettle-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="assets/card-openfettle-light.svg">
+  <img src="assets/card-openfettle-dark.svg" width="60%" alt="OpenFettle">
 </picture>
 </a>
 
@@ -119,13 +119,13 @@ Based in India. I bridge enterprise client operations, scalable SaaS delivery, a
   <a href="https://capacitorjs.com" target="_blank" rel="noreferrer"><img src="assets/icons/androidstudio.svg" width="34" height="34" alt="Android (Capacitor)"></a>
 </p>
 
-<a href="https://github.com/rupal2k/openfit">
-  <img src="assets/screenshots/openfit-carousel.gif" width="340" alt="OPENFIT App Walkthrough Carousel" style="border-radius: 12px; border: 1px solid #30363d;">
+<a href="https://github.com/rupal2k/openfettle">
+  <img src="assets/screenshots/openfit-carousel.gif" width="340" alt="OpenFettle App Walkthrough Carousel" style="border-radius: 12px; border: 1px solid #30363d;">
 </a>
 
 <p align="center">
-  <sub><b>OPENFIT</b> · Self-hosted Gym, Body-Weight & Nutrition Tracker with On-Device AI Vision</sub><br>
-  <sub><a href="https://github.com/rupal2k/openfit"><b>Explore Repository ↗</b></a> &nbsp;•&nbsp; <a href="https://github.com/rupal2k/openfit/releases/latest/download/app-release.apk"><b>Download Signed APK ↗</b></a> &nbsp;•&nbsp; <a href="https://github.com/rupal2k/openfit/blob/main/docs/ARCHITECTURE.md"><b>Architecture Docs ↗</b></a></sub>
+  <sub><b>OpenFettle</b> · Self-hosted Gym, Body-Weight & Nutrition Tracker with On-Device AI Vision</sub><br>
+  <sub><a href="https://github.com/rupal2k/openfettle"><b>Explore Repository ↗</b></a> &nbsp;•&nbsp; <a href="https://github.com/rupal2k/openfettle/releases/latest/download/app-release.apk"><b>Download Signed APK ↗</b></a> &nbsp;•&nbsp; <a href="https://github.com/rupal2k/openfettle/blob/main/docs/ARCHITECTURE.md"><b>Architecture Docs ↗</b></a></sub>
 </p>
 
 <br>
