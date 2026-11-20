@@ -130,6 +130,34 @@ Based in India. I bridge enterprise client operations, scalable SaaS delivery, a
 
 <br>
 
+<!-- Clinical Event Verification (proposal, private repository) -->
+<h3>Clinical Event Verification</h3>
+<p>Proposal and working prototype · verify yearly health checks without HR seeing the diagnosis</p>
+
+<p align="center">
+  <img src="https://img.shields.io/badge/Status-Prototype-eab308?style=flat-square" alt="Status: prototype">&nbsp;
+  <img src="https://img.shields.io/badge/Privacy-Sealed_Diagnosis-3b82f6?style=flat-square" alt="Sealed diagnosis">&nbsp;
+  <img src="https://img.shields.io/badge/Modules-6-22c55e?style=flat-square" alt="6 modules">
+</p>
+
+<p align="center">
+  <a href="https://www.python.org" target="_blank" rel="noreferrer"><img src="assets/icons/python.svg" width="34" height="34" alt="Python"></a>&nbsp;
+  <a href="https://fastapi.tiangolo.com" target="_blank" rel="noreferrer"><img src="assets/icons/fastapi.svg" width="34" height="34" alt="FastAPI"></a>&nbsp;
+  <a href="https://www.postgresql.org" target="_blank" rel="noreferrer"><img src="assets/icons/postgres.svg" width="34" height="34" alt="PostgreSQL"></a>&nbsp;
+  <a href="https://www.docker.com" target="_blank" rel="noreferrer"><img src="assets/icons/docker.svg" width="34" height="34" alt="Docker"></a>&nbsp;
+  <a href="https://capacitorjs.com" target="_blank" rel="noreferrer"><img src="assets/icons/androidstudio.svg" width="34" height="34" alt="Android (Capacitor)"></a>
+</p>
+
+<img src="assets/screenshots/clinical-verification-review.png" width="70%" alt="HR case review: a banner says the diagnosis is sealed, with employee, event and doctor details, quick checks, and Verify, Request info and Reject buttons. Sample data." style="border-radius: 12px; border: 1px solid #30363d;">
+
+<p align="left">
+  Employers need proof that yearly health checks (annual, dental, eye, blood test) were done, but HR shouldn't hold the diagnosis. Here the employee submits a report and chooses, field by field, what HR may see. HR verifies the date, the doctor's registration and the clinic, then decides with a reason the employee can act on. The diagnosis stays sealed, and every view and decision goes to an audit log.<br>
+  Six modules across two jobs: employee submissions, an HR verification queue, people and access, and consent-only occupational health for employers; appointment requests by QR code and WhatsApp, and clinic-controlled QR codes for clinics. Role-based sign-in with JWT sessions, plus an Android demo app for employees. Shown with fictional sample data; no real health data yet.<br>
+  <sub>Private repository · Demo on request</sub>
+</p>
+
+<br>
+
 <!-- Aegis AI & PINET Side-by-Side -->
 <table width="100%">
 <tr>
