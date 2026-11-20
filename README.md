@@ -148,7 +148,7 @@ Based in India. I bridge enterprise client operations, scalable SaaS delivery, a
   <a href="https://capacitorjs.com" target="_blank" rel="noreferrer"><img src="assets/icons/androidstudio.svg" width="34" height="34" alt="Android (Capacitor)"></a>
 </p>
 
-<img src="assets/screenshots/clinical-verification-case.png" width="360" alt="HR case review: a banner says the diagnosis is sealed, with employee, event and doctor details, quick checks, and Verify, Request info and Reject buttons. Sample data." style="border-radius: 12px; border: 1px solid #30363d;">
+<img src="assets/screenshots/clinical-verification-carousel.gif" width="70%" alt="Carousel of the modules with sample data: My events (employee chooses what HR may see), Verification queue, Case review with the diagnosis sealed, People and access, Occupational health (only with consent), Appointment requests, and QR codes" style="border-radius: 12px; border: 1px solid #30363d;">
 
 <p align="left">
   Employers need proof that yearly health checks (annual, dental, eye, blood test) were done, but HR shouldn't hold the diagnosis. Here the employee submits a report and chooses, field by field, what HR may see. HR verifies the date, the doctor's registration and the clinic, then decides with a reason the employee can act on. The diagnosis stays sealed, and every view and decision goes to an audit log.<br>
