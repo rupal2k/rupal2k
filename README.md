@@ -235,33 +235,6 @@ Based in India. I bridge enterprise client operations, scalable SaaS delivery, a
 </tr>
 </table>
 
-<br>
-
-<!-- VFITADMIN Tool Kit (company project, private repository) -->
-<h3>VFITADMIN Tool Kit</h3>
-<p>Self-hosted admin workstation for Vantage Fit site administrators · Vantage Circle</p>
-
-<p align="center">
-  <img src="https://img.shields.io/badge/Type-Internal_Tool-64748b?style=flat-square" alt="Type: internal tool">&nbsp;
-  <img src="https://img.shields.io/badge/Automation-Playwright-45ba4b?style=flat-square" alt="Playwright">&nbsp;
-  <img src="https://img.shields.io/badge/Security-Domain_Allowlist-a3e635?style=flat-square" alt="Domain allowlist">&nbsp;
-  <img src="https://img.shields.io/badge/Tests-17_passing-22c55e?style=flat-square" alt="17 tests passing">
-</p>
-
-<p align="center">
-  <a href="https://www.python.org" target="_blank" rel="noreferrer"><img src="assets/icons/python.svg" width="34" height="34" alt="Python"></a>&nbsp;
-  <a href="https://fastapi.tiangolo.com" target="_blank" rel="noreferrer"><img src="assets/icons/fastapi.svg" width="34" height="34" alt="FastAPI"></a>&nbsp;
-  <a href="https://tailwindcss.com" target="_blank" rel="noreferrer"><img src="assets/icons/tailwindcss.svg" width="34" height="34" alt="Tailwind CSS"></a>&nbsp;
-  <a href="https://www.docker.com" target="_blank" rel="noreferrer"><img src="assets/icons/docker.svg" width="34" height="34" alt="Docker"></a>
-</p>
-
-<img src="assets/screenshots/vfitadmin-launcher-blurred.webp" width="70%" alt="VFITADMIN Tool Kit: SiteAdmin Launcher tab with the credentials form and authentication status panel" style="border-radius: 12px; border: 1px solid #30363d;">
-
-<p align="left">
-  Combines three daily admin tasks in one local dashboard. It opens Vantage Fit SiteAdmin in one click by signing in and capturing the session token, which removes the manual copying from DevTools. It also generates QR codes for check-in and campaign links, and resizes badges, avatars and banners to exact pixel and file-size limits entirely in the browser.<br>
-  Built with FastAPI and Playwright, and runs in Docker. Credentials can only be sent to Vantage Circle domains. The password is never sent back to the browser, and requests from other hostnames are refused. 17 offline tests.
-</p>
-
 </div>
 
 ---
